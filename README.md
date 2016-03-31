@@ -15,6 +15,8 @@ VoiceAttack sollte mit "initialized myself" antworten
 
 Das Profil beherrscht folgende Befehle:
 
+(Befehl - was es tut)
+
 annehmen - zur Bestätigung von Befehlen. Zur Zeit nur zur Annahme des vorgeschlagenen Landepunkts im Landemodus
 
 Autolandung - schaltet die automatische Landung ein oder aus. Standard ist "ein".
