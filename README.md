@@ -74,5 +74,12 @@ verkleinern; kleiner - zoomt raus.
 
 Waffen - zeigt die Waffenkonfiguration.
 
+Bemerkung:
+Windows 7 Pro hat eine deutsche Spracherkennung, aber englische Ausgabe. Man kann deutsche Stimmen nachinstallieren,
+wozu ich aber zu faul war. Deswegen (und weil ich von meinem Raumschiff nicht vollgequatscht werden will) habe ich mich im Profil auf kurze Antworten wie "OK" oder "negative" beschränkt.
+Mit "Anna" gibt es ein sehr umfangreiches, jedoch englisches Profil https://forums.robertsspaceindustries.com/discussion/153203/voiceattack-anna-v5-52-control-everything-with-your-voice
+"Lena" ist ein weiteres großes Profil, aber deutsch https://www.systemsunitednavy.com/threads/german-voice-attack-ultimate-profile-lena-updates.4297/
+Meines ist, wie gesagt, die kleine Lösung.
+
 Einschränkungen:
 Das Profil funktioniert nur in Schiffen mit HUD vollständig (wo man mit den F-Tasten zwischen den Ansichten umschalten kann). Dazu zählen z.B. die Hornets, Sabre und Khartu-Al. Schilde oder die verschiedenen Flugmodi gehen nicht im z.B. Vanguard oder Cutlass.
