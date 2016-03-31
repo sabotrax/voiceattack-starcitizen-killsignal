@@ -11,7 +11,7 @@ Um dieses Profil einsetzen zu können, muss folgendes erledigt werden:
 3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen)
 VoiceAttack sollte mit "initialized myself" antworten
 4. Star Citizen starten
-5. im Spiel "Status" sagen. VoiceAttack sollte mit "OK" antworten
+5. im Spiel "Status" sagen. VoiceAttack sollte mit "ready" antworten
 
 Das Profil beherrscht folgende Befehle:
 
