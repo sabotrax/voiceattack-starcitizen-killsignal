@@ -54,7 +54,7 @@ Schild reset; Schilde reset; Schild normal; Schilde normal; Schild standard; Sch
 
 Schild vorn links; Schild vorne links; Schilde vorn links; Schilde vorne links
 
-Schild vorn rechts; Schilde vorne rechts
+Schild vorn rechts; Schild vorne rechts; Schilde vorn rechts; Schilde vorne rechts
 
 Schild vorn; Schild vorne; Schilde vorn; Schilde vorne
 
