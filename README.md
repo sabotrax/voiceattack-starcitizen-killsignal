@@ -81,5 +81,8 @@ Mit "Anna" gibt es ein sehr umfangreiches, jedoch englisches Profil https://foru
 "Lena" ist ein weiteres großes Profil, aber deutsch https://www.systemsunitednavy.com/threads/german-voice-attack-ultimate-profile-lena-updates.4297/
 Meines ist, wie gesagt, die kleine Lösung.
 
+Fehler:
+Wenn man Sprach- und Tastatureingaben mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann die mittlere Maustaste, um den Sprung auszulösen, so kann es sein, dass ein nachfolgender Sprungversuch mit "negative" quittiert wird. Dann hilft "initialisieren".
+
 Einschränkungen:
 Das Profil funktioniert nur in Schiffen mit HUD vollständig (wo man mit den F-Tasten zwischen den Ansichten umschalten kann). Dazu zählen z.B. die Hornets, Sabre und Khartu-Al. Schilde oder die verschiedenen Flugmodi gehen nicht im z.B. Vanguard oder Cutlass.
