@@ -30,7 +30,7 @@ Laden des Profils ausgeführt.
 
 Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen an.
 
-Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet den Look Ahead Modus aus.
+Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet Look Ahead aus.
 
 Landemodus - aktiviert den Landemodus und die automatische Landung.
 
