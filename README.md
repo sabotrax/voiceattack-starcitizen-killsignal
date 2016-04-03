@@ -72,7 +72,7 @@ schneller - erhöht die Geschwindigkeit um ca. 1/5.
 
 Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
 
-Sprung; spring; springe - aktiert den Quantum-Antrieb für das angepeilte Ziel.
+Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
 
 Status - antwortet bei korrekter Initialisierung mit "OK".
 
