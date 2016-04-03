@@ -23,18 +23,26 @@ Autolandung - schaltet die automatische Landung ein oder aus. Standard ist "ein"
 
 Energie reset; Energie normal; Energie standard - Setzt die Energieverteilung auf je 1/3 für Waffen, Antrieb und Schilde zurück.
 
-Fluchtmodus - verteilt die Energie auf Antrieb und Schilde.
+Fluchtmodus - verteilt die Energie auf Antrieb und Schilde. Schaltet die Waffen aus.
 
 initialisieren - setzt Variablen zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert. Wird automatisch beim 
 Laden des Profils ausgeführt.
 
-Kampfmodus - verteilt die Energie auf Waffen und Schilde.
+Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen an.
 
 Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet den Look Ahead Modus aus.
 
 Landemodus - aktiviert den Landemodus und die automatische Landung.
 
+langsamer - verringert die Geschwindigkeit um ca. 1/5.
+
 Maschine; Maschinen; Energie - zeigt die Energieverteilung.
+
+mehr Antrieb - gibt mehr Energie in den Antrieb. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
+
+mehr Schilde - gibt mehr Energie zu den Schilden. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
+
+mehr Waffen - gibt mehr Energie zu den Waffen. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
 
 Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
 
@@ -60,6 +68,8 @@ Schild vorn; Schild vorne; Schilde vorn; Schilde vorne
 
 Schild; Schilde - zeigt den Schildstatus und die Konfiguration
 
+schneller - erhöht die Geschwindigkeit um ca. 1/5.
+
 Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
 
 Sprung; spring; springe - aktiert den Quantum-Antrieb für das angepeilte Ziel.
@@ -71,6 +81,12 @@ Status - antwortet bei korrekter Initialisierung mit "OK".
 vergrößern; größer - zoomt rein.
 
 verkleinern; kleiner - zoomt raus.
+
+volle Schilde - alle Energie zu den Schilden.
+
+volle Waffen - alle Energie zu den Waffen.
+
+voller Antrieb - alle Energie in den Antrieb.
 
 Waffen - zeigt die Waffenkonfiguration.
 
