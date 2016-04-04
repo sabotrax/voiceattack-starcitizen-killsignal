@@ -74,7 +74,7 @@ Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
 
 Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
 
-Status - antwortet bei korrekter Initialisierung mit "OK".
+Status - antwortet bei korrekter Initialisierung mit "OK". Sagt ebenfalls Bescheid, ob ein Programm geladen ist (zur Zeit nur "Joystick", siehe "Lade Programm 1").
 
 Übersicht - zeigt die Übersicht.
 
