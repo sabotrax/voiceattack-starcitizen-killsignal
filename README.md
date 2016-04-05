@@ -24,7 +24,7 @@ Das Profil beherrscht folgende Befehle:
 - Fluchtmodus - verteilt die Energie auf Antrieb und Schilde. Schaltet die Waffen aus.
 - initialisieren - setzt Variablen zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert. Wird automatisch beim 
 Laden des Profils ausgeführt.
-- Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen an.
+- Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen ein.
 - Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet Look Ahead aus.
 - Landemodus - aktiviert den Landemodus und die automatische Landung.
 - langsamer - verringert die Geschwindigkeit um ca. 1/6.
@@ -44,7 +44,7 @@ Laden des Profils ausgeführt.
 - Schild vorn rechts; Schild vorne rechts; Schilde vorn rechts; Schilde vorne rechts
 - Schild vorn; Schild vorne; Schilde vorn; Schilde vorne
 - Schild; Schilde - zeigt den Schildstatus und die Konfiguration
-- schneller - erhöht die Geschwindigkeit um ca. 1/5.
+- schneller - erhöht die Geschwindigkeit um ca. 1/6.
 - Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
 - Status - antwortet bei korrekter Initialisierung mit "OK". Sagt ebenfalls Bescheid, ob ein Programm geladen ist (zur Zeit nur "Joystick", siehe "Lade Programm 1").
