@@ -8,7 +8,7 @@ Um dieses Profil einsetzen zu können, muss folgendes erledigt werden:
 
 1. die Beta von http://www.voiceattack.com/ besorgen und installieren.
 2. die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung
--> Spracherkennung -> Trainieren Sie den Computer.. (2-3 mal durchführen)).
+-> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
 3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen)
 VoiceAttack sollte mit "initialized myself" antworten.
 4. Star Citizen starten.
