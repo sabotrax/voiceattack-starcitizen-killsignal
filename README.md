@@ -53,7 +53,7 @@ Laden des Profils ausgeführt.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
 - Status - antwortet bei korrekter Initialisierung mit "OK". Sagt ebenfalls Bescheid, ob ein Programm geladen ist (zur Zeit nur "Joystick", siehe "Lade Programm 1").
 - Stopp - bricht das automatische Wechseln der Ziele ab.
-- Stopp Stopp, Halt Halt, Schub 0 - reduziert den Schub auf Null.
+- Stopp Stopp; Halt Halt; Schub 0 - reduziert den Schub auf Null.
 - Übersicht - zeigt die Übersicht.
 - vergrößern; größer - zoomt rein.
 - verkleinern; kleiner - zoomt raus.
