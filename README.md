@@ -19,15 +19,19 @@ Das Profil beherrscht folgende Befehle:
 (Befehl - was es tut)
 
 - annehmen - zur Bestätigung von Befehlen. Aktuell nur zur Annahme des vorgeschlagenen Landepunkts im Landemodus.
+- anpassen - passt die eigene Geschwindigkeit ständig an die des Ziels an.
+- anvisieren - wählt das Ziel unter dem Fadenkreuz aus.
 - Autolandung - schaltet die automatische Landung ein oder aus. Standard ist "ein".
 - Energie reset; Energie normal; Energie standard - Setzt die Energieverteilung auf je 1/3 für Waffen, Antrieb und Schilde zurück.
 - Fluchtmodus - verteilt die Energie auf Antrieb und Schilde. Schaltet die Waffen aus.
+- folgen - Kombination aus "anvisieren" und "anpassen".
 - initialisieren - setzt Variablen zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert. Wird automatisch beim 
 Laden des Profils ausgeführt.
 - Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen ein.
 - Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet Look Ahead aus.
 - Landemodus - aktiviert den Landemodus und die automatische Landung.
 - langsamer - verringert die Geschwindigkeit um ca. 1/6.
+- los los; Schub voll; voller Schub; volle Kraft - gibt maximalen Schub.
 - Maschine; Maschinen; Energie - zeigt die Energieverteilung.
 - mehr Antrieb - gibt mehr Energie in den Antrieb. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
 - mehr Schilde - gibt mehr Energie zu den Schilden. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
@@ -48,6 +52,8 @@ Laden des Profils ausgeführt.
 - Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
 - Status - antwortet bei korrekter Initialisierung mit "OK". Sagt ebenfalls Bescheid, ob ein Programm geladen ist (zur Zeit nur "Joystick", siehe "Lade Programm 1").
+- Stopp - bricht das automatische Wechseln der Ziele ab.
+- Stopp Stopp, Halt Halt, Schub 0 - reduziert den Schub auf Null.
 - Übersicht - zeigt die Übersicht.
 - vergrößern; größer - zoomt rein.
 - verkleinern; kleiner - zoomt raus.
@@ -55,6 +61,7 @@ Laden des Profils ausgeführt.
 - volle Waffen - alle Energie zu den Waffen.
 - voller Antrieb - alle Energie in den Antrieb.
 - Waffen - zeigt die Waffenkonfiguration.
+- Ziel wechseln; Ziele wechseln - wechselt alle drei Sekunden das Ziel bis mit "Stopp" abgebrochen wird.
 
 Bemerkung:
 
