@@ -11,10 +11,11 @@ Um dieses Profil einsetzen zu können, müssen ein paar Vorbereitungen getroffen
 1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren.
 2. Die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung.
 -> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
-3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen).
+3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen). Eine eventuelle Warnung,
+dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden.
 4. Star Citizen starten.
 5. Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Der Standard ist "gesprächig",
-es geht aber auch "knapp".
+es geht aber auch "knapp". VoiceAttack neu starten, falls die Frage nicht gestellt wird.
 
 Das Profil beherrscht folgende Befehle:
 
