@@ -1,80 +1,81 @@
 # voiceattack-starcitizen-killsignal
 Ein einfaches VoiceAttack-Profil für Star Citizen
 
+BETA und kompatibel mit SC Alpha 2.6.
+
 VoiceAttack setzt Sprache in Tastatur- und Mauseingaben um.
 So lassen sich Spiele wie Star Citizen einfacher steuern.
 
-Um dieses Profil einsetzen zu können, muss folgendes erledigt werden:
+Um dieses Profil einsetzen zu können, müssen ein paar Vorbereitungen getroffen werden:
 
-1. die Beta von http://www.voiceattack.com/ besorgen und installieren.
-2. die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung
+1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren.
+2. Die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung.
 -> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
-3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen)
-VoiceAttack sollte mit "initialized myself" antworten.
+3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen).
 4. Star Citizen starten.
-5. im Spiel "Status" sagen. VoiceAttack sollte mit "ready" antworten.
+5. Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Der Standard ist "gesprächig",
+es geht aber auch "knapp".
 
 Das Profil beherrscht folgende Befehle:
 
 (Befehl - was es tut)
 
-- annehmen - zur Bestätigung von Befehlen. Aktuell nur zur Annahme des vorgeschlagenen Landepunkts im Landemodus.
+- Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
+- abheben; starten; Start - lässt das Schiff ein paar Meter abheben und beendet den Landemodus.
 - anpassen - passt die eigene Geschwindigkeit ständig an die des Ziels an.
-- anvisieren - wählt das Ziel unter dem Fadenkreuz aus.
-- Autolandung - schaltet die automatische Landung ein oder aus. Standard ist "ein".
-- Energie reset; Energie normal; Energie standard - Setzt die Energieverteilung auf je 1/3 für Waffen, Antrieb und Schilde zurück.
-- Fluchtmodus - verteilt die Energie auf Antrieb und Schilde. Schaltet die Waffen aus.
-- folgen - Kombination aus "anvisieren" und "anpassen".
-- initialisieren - setzt Variablen zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert. Wird automatisch beim 
-Laden des Profils ausgeführt.
-- Kampfmodus - verteilt die Energie auf Waffen und Schilde. Schaltet die Waffen ein.
-- Lade Programm 1 - Joystickmodus: sperrt den Gimbal und schaltet Look Ahead aus.
-- Landemodus - aktiviert den Landemodus und die automatische Landung.
-- langsamer - verringert die Geschwindigkeit um ca. 1/6.
-- los los; Schub voll; voller Schub; volle Kraft - gibt maximalen Schub.
-- Maschine; Maschinen; Energie - zeigt die Energieverteilung.
-- mehr Antrieb - gibt mehr Energie in den Antrieb. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
-- mehr Schilde - gibt mehr Energie zu den Schilden. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
-- mehr Waffen - gibt mehr Energie zu den Waffen. Die Änderung soll gering sein, hängt aber vom Schiffstyp ab.
+- anvisieren; focussieren; Focus - wählt das Ziel unter dem Fadenkreuz aus.
+- Anzug [stop; anhalten; halt] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
+- Anzug [vorwärts; los; go] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
+- Beende Spiel; Spiel beenden; Prozess beenden; Beende Prozess - Beendet Star Citizen. Kann abgebrochen werden.
+- Chat - zeigt das Chat-Fensters oder blendet es aus.
+- [eher;] [gesprächig; ausführlich] - ändert den Sprachstil.
+- [eher;] [militärisch;] knapp - ändert den Sprachstil.
+- [Ich;] bin am Steuer; am Steuer - teilt dem Profil mit, dass man ein Raumschiff steuert.
+- [Ich;] bin draussen - teilt dem Profil mit, dass man zu Fuss oder E.V.A. ist.
+- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert.
+- Kamera; Kammerer - wechselt die Kameraposition.
+- [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
+- [Lade;] [Steuerung; Programm] Maus; Lade [Steuerung; Programm;] Maus - Löst Gimbal und schaltet Look Ahead Modus ein.
+- Landemodus - bringt das Schiff in den Landemodus.
+- landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatischen Landung).
+- langsamer; bremsen - verringert den Schub ein wenig.
+- Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein oder aus.
+- Moby - zeigt MobyGlass oder blendet es aus.
+- Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
-- Radar - schaltet durch die verschiedenen Radar-Auflösungen.
-- Schild hinten links; Schilde hinten links
-- Schild hinten rechts; Schilde hinten rechts
-- Schild hinten; Schilde hinten
-- Schild links; Schilde links
-- Schild rechts; Schilde rechts
-- Schild reset; Schilde reset; Schild normal; Schilde normal; Schild standard; Schilde standard
-- Schild vorn links; Schild vorne links; Schilde vorn links; Schilde vorne links
-- Schild vorn rechts; Schild vorne rechts; Schilde vorn rechts; Schilde vorne rechts
-- Schild vorn; Schild vorne; Schilde vorn; Schilde vorne
-- Schild; Schilde - zeigt den Schildstatus und die Konfiguration
-- schneller - erhöht die Geschwindigkeit um ca. 1/6.
-- Sicht hinten - schaltet für 2 Sekunden auf die Rückkamera um.
-- Sprung; spring; springe - aktiviert den Quantum-Antrieb für das angepeilte Ziel.
-- Status - antwortet bei korrekter Initialisierung mit "OK". Sagt ebenfalls Bescheid, ob ein Programm geladen ist (zur Zeit nur "Joystick", siehe "Lade Programm 1").
+- schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
+- schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
+- schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
+- schau [nach;] unten; [nach;] [unten; runter] schauen - schaut für eine kurze Zeit nach unten.
+- schneller; beschleunigen - erhöht den Schub ein wenig.
+- Schub 100; voller Schub; volle Kraft; los los; Vollgas - gibt maximalen SCM-Schub.
+- [Schutz;][Schild; Schilde] [nach;] hinten - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] hinten links - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] hinten rechts - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] links - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] rechts - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] links - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] rechts - Schildsteuerung
+- [Schutz;][Schild; Schilde] [reset; normal; standard; zurücksetzen] - Schildsteuerung
+- Selbstzerstörung[ssequenz;] [initiieren; einleiten;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
+- Sicht hinten; Rückspiegel; Sicht achtern - schaltet für eine kurze Zeit auf die Rückkamera.
+- Spieldaten; Daten des Spiels - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
+- Sprung; spring; springe - aktiviert den Quantum-Sprung zum angepeilten Ziel.
+- Status - gibt Status- und Debug-Meldungen aus.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
-- Stopp Stopp; Halt Halt; Schub 0 - reduziert den Schub auf Null.
-- Übersicht - zeigt die Übersicht.
-- vergrößern; größer - zoomt rein.
-- verkleinern; kleiner - zoomt raus.
-- volle Schilde - alle Energie zu den Schilden.
-- volle Waffen - alle Energie zu den Waffen.
-- voller Antrieb - alle Energie in den Antrieb.
-- Waffen - zeigt die Waffenkonfiguration.
-- Ziel wechseln; Ziele wechseln - wechselt alle drei Sekunden das Ziel bis mit "Stopp" abgebrochen wird.
+- Stopp Stopp; Halt Halt; Schub 0; anhalten; Vollbremsung - reduziert den Schub auf Null.
+- Taschenlampe; Funzel - schaltet die Taschenlampe ein und aus.
+- [ver;][folge; folgen] - Kombination aus "anvisieren" und "anpassen".
+- vergrößern; größer - vergrößert die Ansicht ein wenig.
+- verkleinern; kleiner - verkleinert die Ansicht ein wenig.
+- Wo bin ich - meldet die angenommene Position des Spielers.
+- [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel bis mit "Stopp" abgebrochen wird.
 
 Bemerkung:
 
-Windows 7 Pro hat eine deutsche Spracherkennung, aber englische Ausgabe. Man kann deutsche Stimmen nachinstallieren,
-wozu ich aber zu faul war. Deswegen (und weil ich von meinem Raumschiff nicht vollgequatscht werden will) habe ich mich im Profil auf kurze Antworten wie "OK" oder "negative" beschränkt.
-Mit "Anna" gibt es ein sehr umfangreiches, jedoch englisches Profil https://forums.robertsspaceindustries.com/discussion/153203/voiceattack-anna-v5-52-control-everything-with-your-voice
-"Lena" ist ein weiteres großes Profil, aber deutsch https://www.systemsunitednavy.com/threads/german-voice-attack-ultimate-profile-lena-updates.4297/
-Meines ist, wie gesagt, die kleine Lösung.
+Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen.
 
 Fehler:
 
-Wenn man Sprach- und Tastatureingaben mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann die mittlere Maustaste, um den Sprung auszulösen, so kann es sein, dass ein nachfolgender Sprungversuch mit "negative" quittiert wird. Dann hilft "initialisieren".
-
-Einschränkungen:
-
-Das Profil funktioniert nur in Schiffen mit HUD vollständig (wo man mit den F-Tasten zwischen den Ansichten umschalten kann). Dazu zählen z.B. die Hornets, Sabre und Khartu-Al. Stand Alpha 2.3.
+Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Qantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
