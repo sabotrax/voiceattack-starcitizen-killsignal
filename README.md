@@ -22,7 +22,7 @@ Das Profil beherrscht folgende Befehle:
 
 - Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
 - abheben; starten; Start - lässt das Schiff ein paar Meter abheben und beendet den Landemodus.
-- anpassen - passt die eigene Geschwindigkeit ständig an die des Ziels an.
+- anpassen - passt die eigene Schiffsgeschwindigkeit kontinuierlich an die des Ziels an.
 - anvisieren; focussieren; Focus - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [stop; anhalten; halt] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
 - Anzug [vorwärts; los; go] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
@@ -31,16 +31,16 @@ Das Profil beherrscht folgende Befehle:
 - [eher;] [gesprächig; ausführlich] - ändert den Sprachstil.
 - [eher;] [militärisch;] knapp - ändert den Sprachstil.
 - [Ich;] bin am Steuer; am Steuer - teilt dem Profil mit, dass man ein Raumschiff steuert.
-- [Ich;] bin draussen - teilt dem Profil mit, dass man zu Fuss oder E.V.A. ist.
-- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr richtig funktioniert.
+- [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
+- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
 - [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
 - [Lade;] [Steuerung; Programm] Maus; Lade [Steuerung; Programm;] Maus - Löst Gimbal und schaltet Look Ahead Modus ein.
 - Landemodus - bringt das Schiff in den Landemodus.
-- landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatischen Landung).
+- landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - langsamer; bremsen - verringert den Schub ein wenig.
-- Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein oder aus.
-- Moby - zeigt MobyGlass oder blendet es aus.
+- Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
+- Moby - zeigt mobiGlass oder blendet es aus.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
 - schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
@@ -49,19 +49,19 @@ Das Profil beherrscht folgende Befehle:
 - schau [nach;] unten; [nach;] [unten; runter] schauen - schaut für eine kurze Zeit nach unten.
 - schneller; beschleunigen - erhöht den Schub ein wenig.
 - Schub 100; voller Schub; volle Kraft; los los; Vollgas - gibt maximalen SCM-Schub.
-- [Schutz;][Schild; Schilde] [nach;] hinten - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] hinten links - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] hinten rechts - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] links - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] rechts - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] links - Schildsteuerung
-- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] rechts - Schildsteuerung
-- [Schutz;][Schild; Schilde] [reset; normal; standard; zurücksetzen] - Schildsteuerung
+- [Schutz;][Schild; Schilde] [nach;] hinten - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] hinten links - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] hinten rechts - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] links - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] rechts - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] links - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] rechts - Schildsteuerung.
+- [Schutz;][Schild; Schilde] [reset; normal; standard; zurücksetzen] - Schildsteuerung.
 - Selbstzerstörung[ssequenz;] [initiieren; einleiten;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
 - Sicht hinten; Rückspiegel; Sicht achtern - schaltet für eine kurze Zeit auf die Rückkamera.
 - Spieldaten; Daten des Spiels - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
-- Sprung; spring; springe - aktiviert den Quantum-Sprung zum angepeilten Ziel.
+- Sprung; spring; springe - aktiviert den Quantum-Antrieb.
 - Status - gibt Status- und Debug-Meldungen aus.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
 - Stopp Stopp; Halt Halt; Schub 0; anhalten; Vollbremsung - reduziert den Schub auf Null.
@@ -70,12 +70,12 @@ Das Profil beherrscht folgende Befehle:
 - vergrößern; größer - vergrößert die Ansicht ein wenig.
 - verkleinern; kleiner - verkleinert die Ansicht ein wenig.
 - Wo bin ich - meldet die angenommene Position des Spielers.
-- [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel bis mit "Stopp" abgebrochen wird.
+- [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel, bis mit "Stopp" abgebrochen wird.
 
 Bemerkung:
 
-Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen.
+Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen. Man kann dem Profil helfen, indem man ihm nach Positionswechseln sagt, wo man sich befindet.
 
 Fehler:
 
-Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Qantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
+Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Quantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
