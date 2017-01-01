@@ -23,6 +23,8 @@ Das Profil beherrscht folgende Befehle:
 
 - Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
 - abheben; starten; Start - lässt das Schiff ein paar Meter abheben und beendet den Landemodus.
+- Abwehr[maßname; maßnamen;] [raus; abfeuern]; [Gegenmaßname; Gegenmaßnamen] [raus; abfeuern] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
+- Abwehr[maßname;maßnamen;] [wechseln; tauschen]; [Gegenmaßname; Gegenmaßnamen] [wechseln; tauschen] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - anpassen - passt die eigene Schiffsgeschwindigkeit kontinuierlich an die des Ziels an.
 - anvisieren; focussieren; Focus - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [stop; anhalten; halt] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
@@ -41,6 +43,7 @@ Das Profil beherrscht folgende Befehle:
 - landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - langsamer; bremsen - verringert den Schub ein wenig.
 - Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
+- [maximale; maximal; volle] Vergrößerung - vergrößert die Ansicht (Zoom) maximal.
 - Moby - zeigt mobiGlass oder blendet es aus.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
@@ -48,6 +51,7 @@ Das Profil beherrscht folgende Befehle:
 - schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
 - schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
 - schau [nach;] unten; [nach;] [unten; runter] schauen - schaut für eine kurze Zeit nach unten.
+- Schildverteilung; Verteilung der Schilde - meldet die Verteilung der Schildenergie.
 - schneller; beschleunigen - erhöht den Schub ein wenig.
 - Schub 100; voller Schub; volle Kraft; los los; Vollgas - gibt maximalen SCM-Schub.
 - [Schutz;][Schild; Schilde] [nach;] hinten - Schildsteuerung.
@@ -69,7 +73,9 @@ Das Profil beherrscht folgende Befehle:
 - Taschenlampe; Funzel - schaltet die Taschenlampe ein und aus.
 - [ver;][folge; folgen] - Kombination aus "anvisieren" und "anpassen".
 - vergrößern; größer - vergrößert die Ansicht ein wenig.
+- Vergrößerung zurücksetzen; Standardvergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
 - verkleinern; kleiner - verkleinert die Ansicht ein wenig.
+- [Wie ist die;] Uhrzeit; [Wieviel Uhr; Wieviele Uhr] [ist es;]; Wie spät [ist es;] - nennt die Uhrzeit.
 - Wo bin ich - meldet die angenommene Position des Spielers.
 - [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel, bis mit "Stopp" abgebrochen wird.
 
