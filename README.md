@@ -22,7 +22,7 @@ Das Profil beherrscht folgende Befehle:
 (Befehl - was es tut)
 
 - Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
-- abheben; starten; Start - lässt das Schiff ein paar Meter abheben und beendet den Landemodus.
+- abheben; starten; Start - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
 - Abwehr[maßname; maßnamen;] [raus; abfeuern]; [Gegenmaßname; Gegenmaßnamen] [raus; abfeuern] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [wechseln; tauschen]; [Gegenmaßname; Gegenmaßnamen] [wechseln; tauschen] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - anpassen - passt die eigene Schiffsgeschwindigkeit kontinuierlich an die des Ziels an.
