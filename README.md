@@ -31,12 +31,12 @@ Das Profil beherrscht folgende Befehle:
 - Anzug [vorwärts; los; go] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
 - Beende Spiel; Spiel beenden; Prozess beenden; Beende Prozess - Beendet Star Citizen. Kann abgebrochen werden.
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
-- [eher;] [gesprächig; ausführlich] - ändert den Sprachstil.
-- [eher;] [militärisch;] knapp - ändert den Sprachstil.
+- gesprächig; ausführlich - ändert den Sprachstil.
 - [Ich;] bin am Steuer; am Steuer - teilt dem Profil mit, dass man ein Raumschiff steuert.
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
 - initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
+- knapp - ändert den Sprachstil.
 - [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
 - [Lade;] [Steuerung; Programm] Maus; Lade [Steuerung; Programm;] Maus - Löst Gimbal und schaltet Look Ahead Modus ein.
 - Landemodus - bringt das Schiff in den Landemodus.
@@ -47,6 +47,8 @@ Das Profil beherrscht folgende Befehle:
 - Moby - zeigt mobiGlass oder blendet es aus.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
+- Rakete; Raketen - schaltet eine Rakete auf das ausgewählte Ziel auf.
+- [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das ausgewählte Ziel ab.
 - schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
 - schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
 - schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
@@ -66,6 +68,7 @@ Das Profil beherrscht folgende Befehle:
 - Selbstzerstörung[ssequenz;] [initiieren; einleiten;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
 - Sicht hinten; Rückspiegel; Sicht achtern - schaltet für eine kurze Zeit auf die Rückkamera.
 - Spieldaten; Daten des Spiels - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
+- Sprung [abbrechen; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb.
 - Status - gibt Status- und Debug-Meldungen aus.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
@@ -85,4 +88,5 @@ Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profi
 
 Fehler:
 
-Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Quantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
+- Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Quantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
+- Wenn man ein Profil neu importiert, gehen die gespeicherten Spieldaten verloren.
