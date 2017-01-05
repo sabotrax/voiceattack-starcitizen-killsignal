@@ -11,8 +11,8 @@ Um dieses Profil einsetzen zu können, müssen ein paar Vorbereitungen getroffen
 1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren.
 2. Die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung.
 -> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
-3. VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen). Eine eventuelle Warnung,
-dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden.
+3. killsignal-26.vap downloaden, VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen).
+Eine eventuelle Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden.
 4. Star Citizen starten.
 5. Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Der Standard ist "gesprächig",
 es geht aber auch "knapp". VoiceAttack neu starten, falls die Frage nicht gestellt wird.
@@ -89,4 +89,4 @@ Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profi
 Fehler:
 
 - Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Quantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
-- Wenn man ein Profil neu importiert, gehen die gespeicherten Spieldaten verloren.
+- Wenn man ein Profil neu importiert, gehen alle gespeicherten Daten, wie die Zahl der Abschüsse, verloren.
