@@ -9,17 +9,16 @@ So lassen sich Spiele wie Star Citizen einfacher steuern.
 Um dieses Profil einsetzen zu können, müssen ein paar Vorbereitungen getroffen werden:
 
 1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren.
+Die Probe-Version (Trial) reicht nicht aus, weil das Profil deren Umfang sprengt.
 2. Die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung.
 -> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
 3. killsignal-26.vap downloaden, VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen).
-Eine eventuelle Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden.
+Eine eventuelle Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden (siehe Bemerkungen).
 4. Star Citizen starten.
 5. Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Der Standard ist "gesprächig",
 es geht aber auch "knapp". VoiceAttack neu starten, falls die Frage nicht gestellt wird.
 
-Das Profil beherrscht folgende Befehle:
-
-(Befehl - was es tut)
+Das Profil beherrscht folgende Befehle (Legende unten):
 
 - Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
 - abheben; starten; Start - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
@@ -32,14 +31,15 @@ Das Profil beherrscht folgende Befehle:
 - Beende Spiel; Spiel beenden; Prozess beenden; Beende Prozess - Beendet Star Citizen. Kann abgebrochen werden.
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
 - gesprächig; ausführlich - ändert den Sprachstil.
-- [Ich;] bin am Steuer; am Steuer - teilt dem Profil mit, dass man ein Raumschiff steuert.
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
+- [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
+- [Ich;] [bin; sitz; sitze;] am Steuer [und gelandet;] - teilt dem Profil mit, dass man ein Raumschiff steuert (und es gelandet ist).
 - initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
 - knapp - ändert den Sprachstil.
 - [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
 - [Lade;] [Steuerung; Programm] Maus; Lade [Steuerung; Programm;] Maus - Löst Gimbal und schaltet Look Ahead Modus ein.
-- Landemodus - bringt das Schiff in den Landemodus.
+- Landemodus - aktiviert den Landemodus.
 - landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - langsamer; bremsen - verringert den Schub ein wenig.
 - Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
@@ -47,8 +47,8 @@ Das Profil beherrscht folgende Befehle:
 - Moby - zeigt mobiGlass oder blendet es aus.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
-- Rakete; Raketen - schaltet eine Rakete auf das ausgewählte Ziel auf.
 - [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das ausgewählte Ziel ab.
+- Rakete; Raketen [aufschalten;] - schaltet eine Rakete auf das ausgewählte Ziel auf.
 - schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
 - schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
 - schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
@@ -70,7 +70,7 @@ Das Profil beherrscht folgende Befehle:
 - Spieldaten; Daten des Spiels - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
 - Sprung [abbrechen; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb.
-- Status - gibt Status- und Debug-Meldungen aus.
+- Status - gibt Status- und Debug-Meldungen aus. Kann abgebrochen werden.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
 - Stopp Stopp; Halt Halt; Schub 0; anhalten; Vollbremsung - reduziert den Schub auf Null.
 - Taschenlampe; Funzel - schaltet die Taschenlampe ein und aus.
@@ -82,9 +82,16 @@ Das Profil beherrscht folgende Befehle:
 - Wo bin ich - meldet die angenommene Position des Spielers.
 - [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel, bis mit "Stopp" abgebrochen wird.
 
-Bemerkung:
+Legende:
+- Baumhaus - Man kann "Baumhaus" sagen.
+- Baum; Haus - Man kann "Baum" oder "Haus" sagen.
+- Baum[Rinde; Krone] - Man kann "Baumrinde" oder "Baumkrone" sagen.
+- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen.
 
-Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen. Man kann dem Profil helfen, indem man ihm nach Positionswechseln sagt, wo man sich befindet.
+Bemerkungen:
+
+- Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen. Man kann dem Profil helfen, indem man ihm nach Positionswechseln sagt, wo man sich befindet.
+- Damit das Profil funktioniert, muss VoiceAttack im Admin-Modus laufen. Damit kann VoiceAttack Windows-Prozesse steuern. Wem das mit einem fremden Profil nicht geheuer ist, der kann es auf problematische Befehle überprüfen, wie z.B. "Spiel beenden".
 
 Fehler:
 
