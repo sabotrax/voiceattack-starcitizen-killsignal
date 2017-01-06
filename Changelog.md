@@ -1,5 +1,16 @@
 Changelog
 
+20170106
+- Schiffsvariablen-Aufruf in "initialisierung" nutzen.
+- Sprachschatz erweitert.
+- Erste Version des dynamischen Story-Modus. Das Profil kann damit
+  zusammenhaengende Geschichten zu verschiedenen Themen erzaehlen
+  und auch neue Inhalte von einem Server beziehen.
+- "Abbruch" bricht jetzt auch "Status" ab.
+- "Bin am Steuer" durch "und gelandet" erweitert.
+- "Bin gelandet" dazu.
+- Fehler behoben.
+
 20170102
 - Ansprache "gespraechig" und "knapp" ohne "eher".
 - "Selbstzerstörung" und "Beende Prozess" um Reset der Schiffsvariablen erweitert.
