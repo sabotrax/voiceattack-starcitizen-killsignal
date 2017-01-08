@@ -1,5 +1,18 @@
 Changelog
 
+20170107
+- "Status" um Schildverteilung erweitert.
+- "Nächstes, Vorheriges Ziel" dazu.
+- "Nächster, Vorheriger Freund" dazu.
+- "Nächster, Vorheriger Feind" dazu.
+- "umschalten" zu "Abwehr" dazu.
+- "Spielstatistik" zu "Spieldaten" dazu.
+- Erste Version von "Schiff links, rechts" dazu.
+- QD-Spruenge werden fuer Spielstatistik gezaehlt.
+- "Alfred" zu "Moby" dazu.
+- Sprachschatz erweitert.
+- Dynamischen Story-Modus auf Kontext "am Steuer" erweitert.
+
 20170106
 - Schiffsvariablen-Aufruf in "initialisierung" nutzen.
 - Sprachschatz erweitert.
