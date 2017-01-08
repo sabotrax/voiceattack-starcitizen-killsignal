@@ -23,7 +23,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - Abbruch; abbrechen - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
 - abheben; starten; Start - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
 - Abwehr[maßname; maßnamen;] [raus; abfeuern]; [Gegenmaßname; Gegenmaßnamen] [raus; abfeuern] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
-- Abwehr[maßname;maßnamen;] [wechseln; tauschen]; [Gegenmaßname; Gegenmaßnamen] [wechseln; tauschen] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
+- Abwehr[maßname;maßnamen;] [wechseln; tauschen; umschalten]; [Gegenmaßname; Gegenmaßnamen] [wechseln; tauschen; umschalten] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - anpassen - passt die eigene Schiffsgeschwindigkeit kontinuierlich an die des Ziels an.
 - anvisieren; focussieren; Focus - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [stop; anhalten; halt] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
@@ -34,7 +34,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
 - [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
 - [Ich;] [bin; sitz; sitze;] am Steuer [und gelandet;] - teilt dem Profil mit, dass man ein Raumschiff steuert (und es gelandet ist).
-- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn das Profil nicht mehr funktioniert.
+- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn ein neues Spiel begonnen wird oder das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
 - knapp - ändert den Sprachstil.
 - [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
@@ -44,15 +44,20 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - langsamer; bremsen - verringert den Schub ein wenig.
 - Licht; Beleuchtung; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
 - [maximale; maximal; volle] Vergrößerung - vergrößert die Ansicht (Zoom) maximal.
-- Moby - zeigt mobiGlass oder blendet es aus.
+- Moby; Alfred - zeigt mobiGlass oder blendet es aus.
+- Nächster [Feind; Gegner]; [Feind; Gegner] plus - wechselt zum nächsten feindlich gesinnten Ziel.
+- Nächster Freund; Freund plus - wechselt zum nächten freundlich gesinnten Ziel.
+- Nächstes Ziel; Ziel plus - wechselt zum nächsten Ziel.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
-- [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das ausgewählte Ziel ab.
+- [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das aufgeschaltete Ziel ab.
 - Rakete; Raketen [aufschalten;] - schaltet eine Rakete auf das ausgewählte Ziel auf.
 - schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
 - schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
 - schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
 - schau [nach;] unten; [nach;] [unten; runter] schauen - schaut für eine kurze Zeit nach unten.
+- Schiff links - verschiebt das Schiff ein kleines Stück nach links.
+- Schiff rechts - verschiebt das Schiff ein kleines Stück nach rechts.
 - Schildverteilung; Verteilung der Schilde - meldet die Verteilung der Schildenergie.
 - schneller; beschleunigen - erhöht den Schub ein wenig.
 - Schub 100; voller Schub; volle Kraft; los los; Vollgas - gibt maximalen SCM-Schub.
@@ -78,6 +83,9 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - vergrößern; größer - vergrößert die Ansicht ein wenig.
 - Vergrößerung zurücksetzen; Standardvergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
 - verkleinern; kleiner - verkleinert die Ansicht ein wenig.
+- Vorheriger [Feind; Gegner]; [Feind; Gegner] minus - wechselt zum vorherigen feindlich gesinnten Ziel.
+- Vorheriger Freund; Freund minus - wechselt zum vorherigen freundlich gesinnten Ziel.
+- Vorheriges Ziel; Ziel minus - wechselt zum vorherigen Ziel.
 - [Wie ist die;] Uhrzeit; [Wieviel Uhr; Wieviele Uhr] [ist es;]; Wie spät [ist es;] - nennt die Uhrzeit.
 - Wo bin ich - meldet die angenommene Position des Spielers.
 - [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel, bis mit "Stopp" abgebrochen wird.
@@ -93,7 +101,8 @@ Bemerkungen:
 - Ziel ist es, das Spiel intuitiv bedienen zu können. Gleichzeitig soll das Profil unanfällig gegen Fehler sein. Deswegen fragt es oft nach der Position des Spielers. Zu wissen, ob er ein Raumschiff steuert, herum läuft oder E.V.A. ist, hilft dem Profil, die richtigen Aktionen auszuführen. Man kann dem Profil helfen, indem man ihm nach Positionswechseln sagt, wo man sich befindet.
 - Damit das Profil funktioniert, muss VoiceAttack im Admin-Modus laufen. Damit kann VoiceAttack Windows-Prozesse steuern. Wem das mit einem fremden Profil nicht geheuer ist, der kann es auf problematische Befehle überprüfen, wie z.B. "Spiel beenden".
 
-Fehler:
+Fallstricke und Fehler:
 
+- Das Profil setzt eine deutsche Tastaturbelegung voraus.
 - Wenn man Sprach- und Tastatureingaben bei zusammenhängenden Aktionen wie "Quantum" und "Sprung" mischt, kann es zu Fehlern kommen. Sagt man bespielsweise "Quantum" und drückt dann "F", um den Sprung auszulösen, so wird ein nachfolgender Sprungversuch abgelehnt. Dann hilft "initialisieren".
 - Wenn man ein Profil neu importiert, gehen alle gespeicherten Daten, wie die Zahl der Abschüsse, verloren.
