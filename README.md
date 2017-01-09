@@ -1,7 +1,7 @@
 # voiceattack-starcitizen-killsignal
-Ein einfaches VoiceAttack-Profil für Star Citizen
+Ein einfaches VoiceAttack-Profil für Star Citizen Alpha 2.6
 
-BETA und kompatibel mit SC Alpha 2.6.
+BETA!
 
 VoiceAttack setzt Sprache in Tastatur- und Mauseingaben um.
 So lassen sich Spiele wie Star Citizen einfacher steuern.
