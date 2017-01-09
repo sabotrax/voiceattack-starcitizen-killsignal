@@ -8,8 +8,7 @@ So lassen sich Spiele wie Star Citizen einfacher steuern.
 
 Um dieses Profil einsetzen zu können, müssen ein paar Vorbereitungen getroffen werden:
 
-1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren.
-Die Probe-Version (Trial) reicht nicht aus, weil das Profil deren Umfang sprengt.
+1. VoiceAttack von http://www.voiceattack.com/ besorgen und installieren. Die Probe-Version (Trial) reicht nicht aus.
 2. Die Spracherkennung von Windows trainieren (bei Win 7 unter Systemsteuerung.
 -> Spracherkennung -> Trainieren Sie den Computer..). Das Training zwei bis dreimal durchführen.
 3. killsignal-26.vap downloaden, VoiceAttack als Administrator starten, Profil importieren (Icon mit Plus-Zeichen).
