@@ -23,7 +23,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - abheben; starten; Start - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
 - Abwehr[maßname; maßnamen;] [raus; abfeuern]; [Gegenmaßname; Gegenmaßnamen] [raus; abfeuern] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [wechseln; tauschen; umschalten]; [Gegenmaßname; Gegenmaßnamen] [wechseln; tauschen; umschalten] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
-- anpassen - passt die eigene Schiffsgeschwindigkeit kontinuierlich an die des Ziels an.
+- anpassen - passt die eigene Schiffsgeschwindigkeit an die des Ziels an.
 - anvisieren; focussieren; Focus - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [stop; anhalten; halt] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
 - Anzug [vorwärts; los; go] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
