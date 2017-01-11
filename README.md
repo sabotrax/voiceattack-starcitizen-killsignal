@@ -48,13 +48,16 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - Nächster Freund; Freund plus - wechselt zum nächten freundlich gesinnten Ziel.
 - Nächstes Ziel; Ziel plus - wechselt zum nächsten Ziel.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der zerschmetterten Feindfahrzeuge um eins.
+- Notsprung - führt einen kurzen Quantum-Sprung ohne Zielauswahl durch.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
 - [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das aufgeschaltete Ziel ab.
 - Rakete; Raketen [aufschalten;] - schaltet eine Rakete auf das ausgewählte Ziel auf.
-- schau [nach;] links; [nach;] links schauen - schaut für eine kurze Zeit nach links.
-- schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen - schaut für eine kurze Zeit nach oben.
-- schau [nach;] rechts; [nach;] rechts schauen - schaut für eine kurze Zeit nach rechts.
-- schau [nach;] unten; [nach;] [unten; runter] schauen - schaut für eine kurze Zeit nach unten.
+- schau [nach;] links; [nach;] links schauen; Was ist links? - schaut für eine kurze Zeit nach links.
+- schau [nach;] [oben; hoch]; [nach;] [oben; hoch] schauen; Was ist oben? - schaut für eine kurze Zeit nach oben.
+- schau [nach;] rechts; [nach;] rechts schauen; Was ist rechts? - schaut für eine kurze Zeit nach rechts.
+- schau [nach;] unten; [nach;] [unten; runter] schauen; Was ist unten? - schaut für eine kurze Zeit nach unten.
+- Schiff [hoch; nach oben] - verschiebt das Schiff ein kleines Stück nach oben.
+- Schiff [nach unten; runter] - verschiebt das Schiff ein kleines Stück nach unten.
 - Schiff links - verschiebt das Schiff ein kleines Stück nach links.
 - Schiff rechts - verschiebt das Schiff ein kleines Stück nach rechts.
 - Schildverteilung; Verteilung der Schilde - meldet die Verteilung der Schildenergie.
@@ -71,7 +74,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - [Schutz;][Schild; Schilde] [reset; normal; standard; zurücksetzen] - Schildsteuerung.
 - Selbstzerstörung[ssequenz;] [initiieren; einleiten;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
 - Sicht hinten; Rückspiegel; Sicht achtern - schaltet für eine kurze Zeit auf die Rückkamera.
-- Spieldaten; Daten des Spiels - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
+- Spieldaten; Daten des Spiels; Spielstatistik; Statistik - meldet im Profil gespeicherte Daten wie z.B. die Anzahl der zerstörten Raumschiffe.
 - Sprung [abbrechen; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
 - Sprung; spring; springe - aktiviert den Quantum-Antrieb.
 - Status - gibt Status- und Debug-Meldungen aus. Kann abgebrochen werden.
@@ -80,7 +83,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - Taschenlampe; Funzel - schaltet die Taschenlampe ein und aus.
 - [ver;][folge; folgen] - Kombination aus "anvisieren" und "anpassen".
 - vergrößern; größer - vergrößert die Ansicht ein wenig.
-- Vergrößerung zurücksetzen; Standardvergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
+- Vergrößerung [normal; reset; standard; zurücksetzen]; Standard Vergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
 - verkleinern; kleiner - verkleinert die Ansicht ein wenig.
 - Vorheriger [Feind; Gegner]; [Feind; Gegner] minus - wechselt zum vorherigen feindlich gesinnten Ziel.
 - Vorheriger Freund; Freund minus - wechselt zum vorherigen freundlich gesinnten Ziel.
