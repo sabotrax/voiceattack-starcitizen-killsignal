@@ -1,5 +1,7 @@
 # voiceattack-starcitizen-killsignal
-Ein einfaches VoiceAttack-Profil für Star Citizen Alpha 2.6
+Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
+
+Kompatibel mit Alpha 2.6
 
 BETA!
 
