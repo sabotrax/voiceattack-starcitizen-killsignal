@@ -34,6 +34,7 @@ Das Profil beherrscht folgende Befehle (Legende unten):
 - [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
 - [Ich;] [bin; sitz; sitze;] am Steuer [und gelandet;] - teilt dem Profil mit, dass man ein Raumschiff steuert (und es gelandet ist).
 - initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn ein neues Spiel begonnen wird oder das Profil nicht mehr funktioniert.
+- Ja [sind wir; schon; sicher]; Ja wohl; jawoll; Auf jeden [Fall;]; [Klar; Sicher] [doch;]; Sicher; Sicherlich; Bestätige - dient zur Bestätigung von Nachfragen bei z.B. "abheben" oder "landen".
 - Kamera; Kammerer - wechselt die Kameraposition.
 - knapp - ändert den Sprachstil.
 - [Lade;] [Steuerung; Programm] Joystick; Lade [Steuerung; Programm;] Joystick - Sperrt Gimbal und schaltet Look Ahead Modus aus.
