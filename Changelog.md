@@ -1,5 +1,19 @@
 Changelog
 
+20170112
+- Sprachschatz erweitert.
+- "Schau nach" um "Was ist" erweitert.
+- "nach" zu "Schiff links/rechts" dazu.
+- "Vergrößerung normal/reset" zu "Vergrößerung zurücksetzen" dazu.
+- Zu "abheben", "Sprung" und "landen" eine zweite Kommunikationsebene hinzugefügt:
+  Das Profil bricht den Vorgang im Fehlerfall nicht mehr ab, sondern fragt nach, um den Start doch noch durchfuehren zu koennen.
+  Damit wird das Profil robuster und seine Benutzung intuitiver.
+- Tastaturabfrage zum Auslösen von Befehlen hinzugefügt. Befehlsfolgen wie "Quantum" und "Srung" werden damit ebenfalls robuster und intuitiver zu bedienen.
+- "\_anwendungswechsel" hinzugefügt. Stoppt potentiell windows-störende Aktionen wie "Anzug vorwärts" bei Task-Switch.
+- Dynamischen Story-Modus auf Kontext "Smalltalk" erweitert.
+- "Schiff hoch/runter" dazu.
+- "Notsprung" dazu.
+
 20170107
 - "Status" um Schildverteilung erweitert.
 - "Nächstes, Vorheriges Ziel" dazu.
