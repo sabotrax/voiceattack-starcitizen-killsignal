@@ -1,5 +1,16 @@
 Changelog
 
+20170113
+- "verzögern" zu "langsamer" dazu.
+- "Sprung Abbruch" zu "Sprung abbrechen" dazu.
+- "Ja" ebenfalls erweitert.
+- Smalltalk wird durch "langsamer/schneller/Vollgas/Halt Halt" ausgelöst.
+- "Sprung abbrechen" verringert QD-Zähler wieder für "Spieldaten".
+- Tastaturabfrage auf "Landemodus" und "landen" erweitert.
+- Tastaturabfragen "b" und n" werden ignoriert, wenn Enter für Chat-Eingabe gedrückt wurde.
+- Sprachschatz erweitert.
+- Readme umgekrempelt.
+    
 20170112
 - Sprachschatz erweitert.
 - "Schau nach" um "Was ist" erweitert.
