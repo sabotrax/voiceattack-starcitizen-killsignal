@@ -1,5 +1,12 @@
 Changelog
 
+20170120
+ - "Was gibt's Neues" dazu.
+ - Befehle sortiert und erweitert.
+ - sichere Tastaturbedienung auf "spring" erweitert.
+ - Sprachschatz erweitert.
+ - Readme geaendert.
+ 
 20170113
 - "verzögern" zu "langsamer" dazu.
 - "Sprung Abbruch" zu "Sprung abbrechen" dazu.
