@@ -115,6 +115,7 @@ Befehlsumfang (Legende unten):
 - Status - gibt Status- und Debug-Meldungen aus. Kann abgebrochen werden.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
 - Vergrößerung [normal; reset; standard; zurücksetzen]; Standard Vergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
+- Version - nennt die Version des Profils.
 - Vorheriges Ziel; Ziel minus - wechselt zum vorherigen Ziel.
 - [Wie ist die;] Uhrzeit; [Wieviel Uhr; Wieviele Uhr] [ist es;]; Wie spät [ist es;] - nennt die Uhrzeit.
 - Wo bin ich - meldet die angenommene Position des Spielers.
