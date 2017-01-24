@@ -1,5 +1,15 @@
 Changelog
 
+20170124
+- Schubbefehle erweitert/ueberarbeitet: 25 %, 50 %, 75 % dazu.
+- "Verbündeter" zu "Freund" dazu.
+- "Mauszeiger" dazu.
+- "Koppeln" dazu.
+- Smalltalk wird von mobiGlass ausgelöst.
+- Auftreten von kontextbasierten Äußerungen verändert: mit jedem erfolgreichen Aufruf erhöht sich die Wahrscheinlichkeit eines erneuten Aufrufs um einen gewissen Prozentsatz bis 100% bis zum Ende der gerade erzählten Geschichte.
+- Fehler in "Was gibt's Neues" gefixt.
+- Sprachschatz erweitert.
+
 20170120
  - "Was gibt's Neues" dazu.
  - Befehle sortiert und erweitert.
