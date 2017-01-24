@@ -1,5 +1,9 @@
 Changelog
 
+20170124-2
+- "Version"dazu.
+- Debug-Meldungen entfernt.
+
 20170124
 - Schubbefehle erweitert/ueberarbeitet: 25 %, 50 %, 75 % dazu.
 - "Verbündeter" zu "Freund" dazu.
