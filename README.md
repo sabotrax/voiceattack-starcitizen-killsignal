@@ -62,11 +62,14 @@ Befehlsumfang (Legende unten):
 - bremsen; langsamer; verzögern - verringert den Schub ein wenig.
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
 - [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - meldet im Profil gespeicherte Daten wie z. B. die Anzahl der zerstörten Raumschiffe.
+- Energie; spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
 - [Feind; Gegner] minus; Vorheriger [Feind; Gegner] - wechselt zum vorherigen feindlich gesinnten Ziel.
 - [Feind; Gegner] plus; Nächster [Feind; Gegner] - wechselt zum nächsten feindlich gesinnten Ziel.
+- Flugsicherheit; Flugcomputer; Flusi - wechselt die Zustände von COMSTAB und G-SAFE.
 - [Freund; Verbündeter] minus; Vorheriger [Freund; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
 - [Freund; Verbündeter] plus; Nächster [Freund; Verbündeter] - wechselt zum nächten freundlich gesinnten Ziel.
 - Funzel; Taschenlampe - schaltet die Taschenlampe ein und aus.
+- [geringste; geringster; 5 Prozent] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 5 [Prozent;]; Voraus [Geringste; Geringster] - stellt den Schub auf ca. 5%.
 - [Gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - besorgt Nachrichten rund um Star Citizen und liest sie vor.
 - größer; vergrößern - vergrößert die Ansicht ein wenig.
 - häng dich dran; hinterher; [ver;][folge; folgen] - Kombination aus "anvisieren" und "anpassen".
@@ -90,6 +93,7 @@ Befehlsumfang (Legende unten):
 - [nach;] [unten; runter] schauen; schau [nach;] unten; was ist unten; zeige unten - schaut für eine kurze Zeit nach unten.
 - Nächstes Ziel; Ziel plus - wechselt zum nächsten Ziel.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der abgeschossenen Raumschiffe um eins.
+- nochmal; wiederholen - wiederholt den kürzlich gegebenen Befehl. Funktioniert nur, wo es sinnvoll ist.
 - Notsprung - führt einen kurzen Quantum-Sprung ohne Zielauswahl durch.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
 - [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das aufgeschaltete Ziel ab.
@@ -110,7 +114,6 @@ Befehlsumfang (Legende unten):
 - [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] rechts - Schildsteuerung.
 - [Schutz;][Schild; Schilde] [normal; reset; standard; zurücksetzen] - Schildsteuerung.
 - Selbstzerstörung[ssequenz;] [einleiten; initiieren;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
-- spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
 - Sprung [abbrechen; Abbruch; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
 - Status - gibt Status- und Debug-Meldungen aus. Kann abgebrochen werden.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
