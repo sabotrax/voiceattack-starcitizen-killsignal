@@ -1,5 +1,13 @@
 Changelog
 
+20170203
+- "Flugsicherheit" dazu. Wechselt COMSTAB und G-SAFE.
+- "geringste Fahrt voraus" dazu.
+- "nochmal" dazu. Wiederholt den letzten, bis vor 6 Sekunden gegebenen Befehl.
+- nach ausführlicher Antwort folgt für 5 Sekunden eine knappe.
+- "Gibt es etwas Neues" Fehler behoben, der auftrat, wenn bei frisch importiertem Profil keine neuen Nachrichten vorhanden waren.
+- Sprachschatz erweitert.
+
 20170124-2
 - "Version"dazu.
 - Debug-Meldungen entfernt.
