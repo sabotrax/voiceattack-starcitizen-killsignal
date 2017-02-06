@@ -1,5 +1,18 @@
 Changelog
 
+20170206
+- "Harakiri" (mit Nachfrage) dazu.
+- "Monitor/e zeigen" (bis Abbruch) dazu.
+- Respawns durch Harakiri zählen und mit Statistik ausgeben.
+- "Auf geht's" erweitert.
+- "Notsprung" erweitert.
+- "Flugcomputer" geaendert.
+- "Was gibt's Neues" kann jetzt abgebrochen werden.
+- Sprachschatz erweitert.
+- "Notsprung" hat nicht geprüft, ob Quantum aktiv ist.
+- Abbruch von "Status" mit korrekter Antwort.
+- Debug-Ausgabe entfernt.
+
 20170203
 - "Flugsicherheit" dazu. Wechselt COMSTAB und G-SAFE.
 - "geringste Fahrt voraus" dazu.
