@@ -54,7 +54,7 @@ Befehlsumfang (Legende unten):
 - anvisieren; Focus; focussieren - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [anhalten; halt; stop] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
 - Anzug [go; los; vorwärts] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
-- Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach schon; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
+- Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - ausführlich; gesprächig - ändert den Sprachstil.
 - Beende Prozess; Beende Spiel; Prozess beenden; Spiel beenden - Beendet Star Citizen. Kann abgebrochen werden.
 - Beleuchtung; Licht; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
@@ -65,14 +65,16 @@ Befehlsumfang (Legende unten):
 - Energie; spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
 - [Feind; Gegner] minus; Vorheriger [Feind; Gegner] - wechselt zum vorherigen feindlich gesinnten Ziel.
 - [Feind; Gegner] plus; Nächster [Feind; Gegner] - wechselt zum nächsten feindlich gesinnten Ziel.
-- Flugsicherheit; Flugcomputer; Flusi - wechselt die Zustände von COMSTAB und G-SAFE.
+- Fluchtsprung; Notsprung; [spring; springe; springer] weg - führt einen kurzen Quantum-Sprung ohne Zielauswahl durch.
+- Flugcomputer; Flugsicherheit; Flusi - wechselt die Zustände von COMSTAB und G-SAFE.
 - [Freund; Verbündeter] minus; Vorheriger [Freund; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
 - [Freund; Verbündeter] plus; Nächster [Freund; Verbündeter] - wechselt zum nächten freundlich gesinnten Ziel.
 - Funzel; Taschenlampe - schaltet die Taschenlampe ein und aus.
 - [geringste; geringster; 5 Prozent] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 5 [Prozent;]; Voraus [Geringste; Geringster] - stellt den Schub auf ca. 5%.
-- [Gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - besorgt Nachrichten rund um Star Citizen und liest sie vor.
+- [Gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - besorgt Nachrichten rund um Star Citizen und liest sie vor. Kann abgebrochen werden.
 - größer; vergrößern - vergrößert die Ansicht ein wenig.
 - häng dich dran; hinterher; [ver;][folge; folgen] - Kombination aus "anvisieren" und "anpassen".
+- Harakiri; Seppuku - Erzwingt einen Respawn. Verlangt nach Bestätigung. Funktioniert nur "draußen".
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
 - [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
 - [Ich;] [bin; sitz; sitze;] am Steuer [und gelandet;] - teilt dem Profil mit, dass man ein Raumschiff steuert (und es gelandet ist).
@@ -87,6 +89,7 @@ Befehlsumfang (Legende unten):
 - landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - Mauszeiger - blendet den UI Mauszeiger ein und aus.
 - [maximale; maximal; volle] Vergrößerung - vergrößert die Ansicht (Zoom) maximal.
+- [Monitor; Monitore] zeigen; zeige [Monitor; Monitore] - schaut nach unten bis abgebrochen wird.
 - [nach;] links schauen; schau [nach;] links; was ist links; [zeig; zeige] links - schaut für eine kurze Zeit nach links.
 - [nach;] [oben; hoch] schauen; schau [nach;] [oben; hoch]; was ist oben; zeige oben - schaut für eine kurze Zeit nach oben.
 - [nach;] rechts schauen; schau [nach;] rechts; was ist rechts; zeige rechts - schaut für eine kurze Zeit nach rechts.
@@ -94,7 +97,6 @@ Befehlsumfang (Legende unten):
 - Nächstes Ziel; Ziel plus - wechselt zum nächsten Ziel.
 - Noch ein Schiff zerstört - erhöht den im Profil gespeicherten Zähler der abgeschossenen Raumschiffe um eins.
 - nochmal; wiederholen - wiederholt den kürzlich gegebenen Befehl. Funktioniert nur, wo es sinnvoll ist.
-- Notsprung - führt einen kurzen Quantum-Sprung ohne Zielauswahl durch.
 - Quantum - aktiviert die Zielauswahl des Quantum-Antriebs.
 - [Rakete; Raketen] [abfeuern; los; starten] - feuert eine Rakete auf das aufgeschaltete Ziel ab.
 - Rakete; Raketen [aufschalten;] - schaltet eine Rakete auf das ausgewählte Ziel auf.
@@ -141,3 +143,4 @@ Fallstricke und Fehler:
 - Das Profil spricht mithilfe des internen Windows TTS (Text-To-Speech). Sätze werden so fomuliert, dass sie sich mit der weiblichen Standard-Stimme Hedda von Windows 10 gut anhören. Als Folge davon kann es sein, dass andere Stimmen, die für sich vielleicht besser als Hedda sind, hier falsch klingen.
 - Die Befehl "Anzug los" kann die Tastatureingabe von Windows stören, wenn man die Anwendung wechselt, während er noch aktiv ist.
 - Die Befehle zum absoluten Regeln des Schubs funtionieren nur mit Schwankungen. So kann "halbe Kraft voraus" 48 %, aber auch 55 % Schub bedeuten.
+- "Fluchtsprung" funktioniert manchmal nicht. Der Befehl aktiviert dann zwar den QD-Antrieb, aber es wird kein Sprung ausgelöst.
