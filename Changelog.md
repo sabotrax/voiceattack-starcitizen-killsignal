@@ -1,5 +1,16 @@
 Changelog
 
+20170219
+- "Schleudersitz" dazu.
+- "Am Steuer" um Angabe des Schiffstyps erweitert. Wird u. a. für "Schleudersitz" gebraucht.
+- "Status" um Ausgabe der schiffsspezifischen Variablen erweitert.
+- "Wo bin ich" um Ausgabe des Schiffstyps erweitert.
+- "Monitor zeigen" um "Monitor, Monitore" erweitert.
+- Sprachschatz erweitert.
+- Fix: "Monitor zeigen" nur einmal ausführen.
+- Fix: falscher Variablentyp in \_sag_was_vz hat verhindert, dass Smalltalk ausgelöst wird.
+- Fix: "Ich bin gelandet" soll nur Schiffsvariablen initialisieren, die nicht schiffsspezifisch sind.
+    
 20170206
 - "Harakiri" (mit Nachfrage) dazu.
 - "Monitor/e zeigen" (bis Abbruch) dazu.
