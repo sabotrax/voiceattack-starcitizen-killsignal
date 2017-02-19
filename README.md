@@ -1,7 +1,7 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
-Kompatibel mit Alpha 2.6
+Kompatibel mit Alpha 2.6.1
 
 BETA!
 
@@ -59,6 +59,7 @@ Befehlsumfang (Legende unten):
 - Beende Prozess; Beende Spiel; Prozess beenden; Spiel beenden - Beendet Star Citizen. Kann abgebrochen werden.
 - Beleuchtung; Licht; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
 - beschleunigen; gas geben; schneller - erhöht den Schub ein wenig.
+- [Bin; ich bin;] am Steuer *Schiffstyp* - teilt dem Profil mit, dass man ein Raumschiff steuert. Zusätzlich kann man den Typ des Schiffs angeben (wie in "Bin am Steuer einer Freelancer"). Das ist nicht zwingend nötig, aber es beeinflusst andere Funktionen wie z. B. "Monitor zeigen" (diese sind in verschiedenen Schiffen unterschiedlich angebracht) oder "Schleudersitz" (manche Schiffe haben keinen).
 - bremsen; langsamer; verzögern - verringert den Schub ein wenig.
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
 - [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - meldet im Profil gespeicherte Daten wie z. B. die Anzahl der zerstörten Raumschiffe.
@@ -77,7 +78,6 @@ Befehlsumfang (Legende unten):
 - Harakiri; Seppuku - Erzwingt einen Respawn. Verlangt nach Bestätigung. Funktioniert nur "draußen".
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
 - [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
-- [Ich;] [bin; sitz; sitze;] am Steuer [und gelandet;] - teilt dem Profil mit, dass man ein Raumschiff steuert (und es gelandet ist).
 - initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn ein neues Spiel begonnen wird oder das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
 - kleiner; verkleinern - verkleinert die Ansicht ein wenig.
@@ -89,7 +89,7 @@ Befehlsumfang (Legende unten):
 - landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - Mauszeiger - blendet den UI Mauszeiger ein und aus.
 - [maximale; maximal; volle] Vergrößerung - vergrößert die Ansicht (Zoom) maximal.
-- [Monitor; Monitore] zeigen; zeige [Monitor; Monitore] - schaut nach unten bis abgebrochen wird.
+- [Monitor; Monitore] [zeigen;]; zeige [Monitor; Monitore] - schaut nach unten, bis abgrochen wird. Schaut in die richtige Richtung, wenn der Schiffstyp angegeben wurde (siehe "[Bin; ich bin;] am Steuer").
 - [nach;] links schauen; schau [nach;] links; was ist links; [zeig; zeige] links - schaut für eine kurze Zeit nach links.
 - [nach;] [oben; hoch] schauen; schau [nach;] [oben; hoch]; was ist oben; zeige oben - schaut für eine kurze Zeit nach oben.
 - [nach;] rechts schauen; schau [nach;] rechts; was ist rechts; zeige rechts - schaut für eine kurze Zeit nach rechts.
@@ -106,6 +106,7 @@ Befehlsumfang (Legende unten):
 - Schiff [nach;] links - verschiebt das Schiff ein kleines Stück nach links.
 - Schiff [nach;] rechts - verschiebt das Schiff ein kleines Stück nach rechts.
 - Schildverteilung; Verteilung der Schilde - meldet die Verteilung der Schildenergie.
+- Schleudersitz - betätigt den Schleudersitz. Funktioniert nur, wenn der Schiffstyp angegeben wurde (siehe "[Bin; ich bin;] am Steuer").
 - [Schutz;][Schild; Schilde] [nach;] hinten - Schildsteuerung.
 - [Schutz;][Schild; Schilde] [nach;] hinten links - Schildsteuerung.
 - [Schutz;][Schild; Schilde] [nach;] hinten rechts - Schildsteuerung.
@@ -123,7 +124,7 @@ Befehlsumfang (Legende unten):
 - Version - nennt die Version des Profils.
 - Vorheriges Ziel; Ziel minus - wechselt zum vorherigen Ziel.
 - [Wie ist die;] Uhrzeit; [Wieviel Uhr; Wieviele Uhr] [ist es;]; Wie spät [ist es;] - nennt die Uhrzeit.
-- Wo bin ich - meldet die angenommene Position des Spielers.
+- Wo bin ich - meldet die angenommene Position des Spielers und - falls bekannt - das Schiff, in dem er sich aufhält.
 - [Ziel; Ziele] wechseln - wechselt in kurzen Abständen das Ziel, bis mit "Stopp" abgebrochen wird.
 
 Legende:
@@ -144,3 +145,31 @@ Fallstricke und Fehler:
 - Die Befehl "Anzug los" kann die Tastatureingabe von Windows stören, wenn man die Anwendung wechselt, während er noch aktiv ist.
 - Die Befehle zum absoluten Regeln des Schubs funtionieren nur mit Schwankungen. So kann "halbe Kraft voraus" 48 %, aber auch 55 % Schub bedeuten.
 - "Fluchtsprung" funktioniert manchmal nicht. Der Befehl aktiviert dann zwar den QD-Antrieb, aber es wird kein Sprung ausgelöst.
+
+Schiffstypen:
+
+Mancher Name hört sich albern an. Das liegt daran, dass die deutsche Spracherkennung sich mit Wörtern wie "Retaliator" schwer tut. In diesen Fällen musste ich mir etwas ausdenken. Für alternative Bezeichnungen bin ich dankbar.
+
+- 300, 315, 325, 350
+- 85, 85x
+- Aurora
+- Avenger = Pinguin, Rächer
+- Caterpillar = Raupe
+- Constellation = Conny
+- Cutlass = Badewanne, Machete
+- Freelancer
+- Gladiator, leichten Bomber
+- Gladius = Kurzschwert
+- Glaive = Gleve
+- Herald, Herold
+- Hornet, Hornisse
+- M50
+- Merlin
+- MPUV = Transporter
+- Mustang
+- Reliant = Motte
+- Retaliator = schweren Bomber, Vergelter
+- Sabre = Säbel
+- Scythe = Sense
+- Starfarer = Tanker
+- Vanguard = Speerspitze, Vorhut, Vorreiter
