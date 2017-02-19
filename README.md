@@ -145,6 +145,7 @@ Fallstricke und Fehler:
 - Die Befehl "Anzug los" kann die Tastatureingabe von Windows stören, wenn man die Anwendung wechselt, während er noch aktiv ist.
 - Die Befehle zum absoluten Regeln des Schubs funtionieren nur mit Schwankungen. So kann "halbe Kraft voraus" 48 %, aber auch 55 % Schub bedeuten.
 - "Fluchtsprung" funktioniert manchmal nicht. Der Befehl aktiviert dann zwar den QD-Antrieb, aber es wird kein Sprung ausgelöst.
+- "Monitor zeigen" funktioniert nicht sinnvoll in Schiffen wie der Constellation, da sich die MFDs dort an Plätzen befinden, die nicht mit einem einzigen Blick überschaut werden können (oben, unten).
 
 Schiffstypen:
 
