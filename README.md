@@ -1,7 +1,7 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
-Kompatibel mit Alpha 2.6.1
+Kompatibel mit Alpha 2.6.3
 
 BETA!
 
@@ -44,10 +44,10 @@ Befehlsumfang (Legende unten):
 - [1/4; 25 Prozent; kleine; kleiner; langsame; langsamer; Viertel] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 25 [Prozent;]; Voraus [Kleine; Kleiner] - stellt den Schub auf ca. 25%.
 - [100 Prozent; voll; voller] [Fahrt; Impuls; Kraft; Schub] [voraus;]; Äußerste Fahrt voraus; [Fahrt; Schub] 100 [Prozent;]; los los; Vollgas; Voraus [Volle; Voller] - stellt den Schub auf 100%.
 - [3/4; 75 Prozent; große; großer] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 75 [Prozent;]; Voraus [Große; Großer] - stellt den Schub auf ca. 75%.
-- abbrechen; Abbruch - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
+- abbrechen; Abbruch; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
 - abheben; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
-- Abwehr[maßname; maßnamen;] [raus; abfeuern]; [Gegenmaßname; Gegenmaßnamen] [raus; abfeuern] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
-- Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
+- Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
+- Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - Alfred; Moby - zeigt mobiGlass oder blendet es aus.
 - anhalten; Halt Halt; [Maschine; Maschinen] stopp; Schub 0 [Prozent;]; Stopp Stopp; Vollbremsung - reduziert den Schub auf 0%.
 - anpassen - passt die eigene Schiffsgeschwindigkeit an die des Ziels an.
@@ -56,13 +56,14 @@ Befehlsumfang (Legende unten):
 - Anzug [go; los; vorwärts] - lässt den Raumanzug mit Shift-Boost vorwärts schieben (gedacht für E.V.A.).
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - ausführlich; gesprächig - ändert den Sprachstil.
-- Beende Prozess; Beende Spiel; Prozess beenden; Spiel beenden - Beendet Star Citizen. Kann abgebrochen werden.
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Kann abgebrochen werden.
 - Beleuchtung; Licht; Scheinwerfer - schaltet die Schiffsbeleuchtung ein und aus.
 - beschleunigen; gas geben; schneller - erhöht den Schub ein wenig.
 - [Bin; ich bin;] am Steuer *Schiffstyp* - teilt dem Profil mit, dass man ein Raumschiff steuert. Zusätzlich kann man den Typ des Schiffs angeben (wie in "Bin am Steuer einer Freelancer"). Das ist nicht zwingend nötig, aber es beeinflusst andere Funktionen wie z. B. "Monitor zeigen" (diese sind in verschiedenen Schiffen unterschiedlich angebracht) oder "Schleudersitz" (manche Schiffe haben keinen).
 - bremsen; langsamer; verzögern - verringert den Schub ein wenig.
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
 - [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - meldet im Profil gespeicherte Daten wie z. B. die Anzahl der zerstörten Raumschiffe.
+- [Die;] [oben; oberen; unten; unteren] [darstellen; zeigen;] - Schaut auf die entsprechenden Monitore, wenn kein Schiffstyp angegeben wurde, aber "Monitor zeigen" befohlen wurde.
 - Energie; spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
 - [Feind; Gegner] minus; Vorheriger [Feind; Gegner] - wechselt zum vorherigen feindlich gesinnten Ziel.
 - [Feind; Gegner] plus; Nächster [Feind; Gegner] - wechselt zum nächsten feindlich gesinnten Ziel.
@@ -89,7 +90,7 @@ Befehlsumfang (Legende unten):
 - landen - leitet die automatische Landung ein (funktioniert nur in der Zone für die automatische Landung).
 - Mauszeiger - blendet den UI Mauszeiger ein und aus.
 - [maximale; maximal; volle] Vergrößerung - vergrößert die Ansicht (Zoom) maximal.
-- [Monitor; Monitore] [zeigen;]; zeige [Monitor; Monitore] - schaut nach unten, bis abgrochen wird. Schaut in die richtige Richtung, wenn der Schiffstyp angegeben wurde (siehe "[Bin; ich bin;] am Steuer").
+- [oberen; unteren;] [Monitor; Monitore] [oben; unten;] [zeigen;]; zeige [oberen; unteren;] [Monitor; Monitore] [oben; unten;] - schaut auf die Monitore, wenn der Schiffstyp angegeben wurde und dies eindeutig möglich ist (siehe "[Bin; ich bin;] am Steuer"). Schaut sonst in die angegeben Richtung. Fragt ohne Richtungsangabe nach, wohin es schauen soll. Alle Aktionen bis Abbruch.
 - [nach;] links schauen; schau [nach;] links; was ist links; [zeig; zeige] links - schaut für eine kurze Zeit nach links.
 - [nach;] [oben; hoch] schauen; schau [nach;] [oben; hoch]; was ist oben; zeige oben - schaut für eine kurze Zeit nach oben.
 - [nach;] rechts schauen; schau [nach;] rechts; was ist rechts; zeige rechts - schaut für eine kurze Zeit nach rechts.
@@ -117,7 +118,7 @@ Befehlsumfang (Legende unten):
 - [Schutz;][Schild; Schilde] [nach;] [vorn; vorne] rechts - Schildsteuerung.
 - [Schutz;][Schild; Schilde] [normal; reset; standard; zurücksetzen] - Schildsteuerung.
 - Selbstzerstörung[ssequenz;] [einleiten; initiieren;] - leitet die Selbstzerstörung des Raumschiffs ein. Kann abgebrochen werden.
-- Sprung [abbrechen; Abbruch; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
+- kein Sprung; nicht springen; Sprung [abbrechen; Abbruch; halt; Stopp] - stellt den Quantum-Antrieb ab bzw. bricht den Sprung ab.
 - Status - gibt Status- und Debug-Meldungen aus. Kann abgebrochen werden.
 - Stopp - bricht das automatische Wechseln der Ziele ab.
 - Vergrößerung [normal; reset; standard; zurücksetzen]; Standard Vergrößerung - setzt die Vergrößerung der Ansicht (Zoom) zurück.
@@ -169,7 +170,7 @@ Mancher Name hört sich albern an. Das liegt daran, dass die deutsche Spracherke
 - MPUV = Transporter
 - Mustang
 - Reliant = Motte
-- Retaliator = schweren Bomber, Vergelter
+- Retaliator = schweren/schwerer Bomber, Vergelter
 - Sabre = Säbel
 - Scythe = Sense
 - Starfarer = Tanker
