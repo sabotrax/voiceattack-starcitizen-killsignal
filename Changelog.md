@@ -1,5 +1,19 @@
 Changelog
 
+20170527
+- Monitor zeigen" um "obere/untere" erweitert, sowie um Nachfrage nach Position der Monitore, wenn ohne "oben/unten" oder Schiff. Und um Antwortmöglichkeit.
+- Profil spricht gegen Ende der Selbstzerstörungssequenz einen Abschiedsgruß.
+- Bezeichnung von Schiffstypen erweitert.
+- "Wo bin ich" -> "draußen" beachtet Schiffstyp.
+- "Sprung abbrechen" um "kein Sprung", "nicht springen" und "Sprung halt" erweitert.
+- "Abwehr wechseln" um "andere Abwehr" erweitert.
+- "abbrechen" um "tu das nicht" erweitert.
+- "Beende Prozess" um "Programm" erweitert.
+- "Am Steuer" um "Schwerer Bomber" zur Erkennung des Retaliators erweitert.
+- Sprachschatz erweitert.
+- Fix: verschiedene Selbstzerstörungs-Timer korrigiert.
+- Fix: Selbstzerstörung lässt sich nicht abbrechen, wenn kein Schiffstyp angegeben wurde (schiff_sd_timer hat Pause nicht gesetzt in _reset_rumpf_selbstzerstoerung).
+
 20170219
 - "Schleudersitz" dazu.
 - "Am Steuer" um Angabe des Schiffstyps erweitert. Wird u. a. für "Schleudersitz" gebraucht.
