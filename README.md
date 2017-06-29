@@ -1,7 +1,7 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
-Kompatibel mit Alpha 2.6.3
+Kompatibel mit Alpha 2.6.3 und VoiceAttack 1.6.6
 
 BETA!
 
@@ -44,12 +44,12 @@ Befehlsumfang (Legende unten):
 - [1/4; 25 Prozent; kleine; kleiner; langsame; langsamer; Viertel] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 25 [Prozent;]; Voraus [Kleine; Kleiner] - stellt den Schub auf ca. 25%.
 - [100 Prozent; voll; voller] [Fahrt; Impuls; Kraft; Schub] [voraus;]; Äußerste Fahrt voraus; [Fahrt; Schub] 100 [Prozent;]; los los; Vollgas; Voraus [Volle; Voller] - stellt den Schub auf 100%.
 - [3/4; 75 Prozent; große; großer] [Fahrt; Impuls; Kraft; Schub] [voraus;]; [Fahrt; Schub] 75 [Prozent;]; Voraus [Große; Großer] - stellt den Schub auf ca. 75%.
-- abbrechen; Abbruch; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
-- abheben; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
+- abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab: die Selbstzerstörung des Schiffs, das Beenden des Star Citizen Prozesses.
+- abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus.
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - Alfred; Moby - zeigt mobiGlass oder blendet es aus.
-- anhalten; Halt Halt; [Maschine; Maschinen] stopp; Schub 0 [Prozent;]; Stopp Stopp; Vollbremsung - reduziert den Schub auf 0%.
+- anhalten; Halt Halt; [Maschine; Maschinen] stopp; Schub 0 [Prozent;]; Stopp Stopp; Vollbremsung; Voller Stopp - reduziert den Schub auf 0%.
 - anpassen - passt die eigene Schiffsgeschwindigkeit an die des Ziels an.
 - anvisieren; Focus; focussieren - wählt das Ziel unter dem Fadenkreuz aus.
 - Anzug [anhalten; halt; stop] - beendet den Vorwärtsschub des Raumanzugs (gedacht für E.V.A.).
@@ -64,7 +64,7 @@ Befehlsumfang (Legende unten):
 - Chat - zeigt das Chat-Fensters oder blendet es aus.
 - [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - meldet im Profil gespeicherte Daten wie z. B. die Anzahl der zerstörten Raumschiffe.
 - [Die;] [oben; oberen; unten; unteren] [darstellen; zeigen;] - Schaut auf die entsprechenden Monitore, wenn kein Schiffstyp angegeben wurde, aber "Monitor zeigen" befohlen wurde.
-- Energie; spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung - aktiviert den Quantum-Antrieb.
 - [Feind; Gegner] minus; Vorheriger [Feind; Gegner] - wechselt zum vorherigen feindlich gesinnten Ziel.
 - [Feind; Gegner] plus; Nächster [Feind; Gegner] - wechselt zum nächsten feindlich gesinnten Ziel.
 - Fluchtsprung; Notsprung; [spring; springe; springer] weg - führt einen kurzen Quantum-Sprung ohne Zielauswahl durch.
@@ -79,7 +79,7 @@ Befehlsumfang (Legende unten):
 - Harakiri; Seppuku - Erzwingt einen Respawn. Verlangt nach Bestätigung. Funktioniert nur "draußen".
 - [Ich;] bin draußen - teilt dem Profil mit, dass man zu Fuß oder E.V.A. ist.
 - [Ich;] bin gelandet - teilt dem Pofil mit, dass man gelandet ist (aktiviert aber nicht den Landemodus).
-- initialisieren - setzt die Konfiguration zurück. Hilfreich, wenn ein neues Spiel begonnen wird oder das Profil nicht mehr funktioniert.
+- initialisieren; zurücksetzen - setzt die Konfiguration zurück. Hilfreich, wenn ein neues Spiel begonnen wird oder das Profil nicht mehr funktioniert.
 - Kamera; Kammerer - wechselt die Kameraposition.
 - kleiner; verkleinern - verkleinert die Ansicht ein wenig.
 - knapp - ändert den Sprachstil.
@@ -154,7 +154,7 @@ Mancher Name hört sich albern an. Das liegt daran, dass die deutsche Spracherke
 
 - 300, 315, 325, 350
 - 85, 85x
-- Aurora
+- Aurora, Polarlicht
 - Avenger = Pinguin, Rächer
 - Caterpillar = Raupe
 - Constellation = Conny
