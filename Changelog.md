@@ -1,5 +1,18 @@
 Changelog
 
+20170629
+- "Schleudersitz" um Tastaturkommando erweitert.
+- "abheben" um "los fliegen" erweitert.
+- "Energie" um "aktivieren" erweitert.
+- "aufhören/hör auf damit" zu "abbrechen" dazu.
+- "initialisieren" um "zurücksetzen" erweitert.
+- "anhalten" um "voller Stopp" erweitert.
+- Aurora um Erkennungstext "Polarlicht" erweitert.
+- Sprachschatz erweitert.
+- Fix: "unteren/oberen Monitor zeigen" überschreibt nicht durch Schiffstyp vorgegebene Monitor-Position.
+- Fix: abgebrochene Sprünge bringen Basiswert für absolute Geschwindigkeitsbefehle durcheinander.
+- Fix: kein Notsprung waehrend aktivem Sprung.
+    
 20170527
 - Monitor zeigen" um "obere/untere" erweitert, sowie um Nachfrage nach Position der Monitore, wenn ohne "oben/unten" oder Schiff. Und um Antwortmöglichkeit.
 - Profil spricht gegen Ende der Selbstzerstörungssequenz einen Abschiedsgruß.
