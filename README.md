@@ -1,6 +1,40 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
+*Das Profil befindet sich in Überarbeitung für Alpha 3.5 und VoiceAttack 1.7.5.*
+
+Siehe "Alte Version" für weitere Informationen.
+
+Befehle, die in der aktuellen SC-Version wieder funktionieren:
+
+Energie
+- Energie an; volle Energie - Hauptenergie auf 100 %.
+- Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
+- mehr Energie - erhöht die Hauptenergie.
+- weniger Energie - verringert die Hauptenergie.
+- mehr Antrieb; Antrieb verstärken - weist dem Antrieb mehr Energie zu.
+- mehr Schilde; Schilde verstärken - weist den Schilden mehr Energie zu.
+- mehr Waffen; Waffen verstärken - weist den Waffen mehr Energie zu.
+- [normale; standard] Energie[verteilung;]; Energie[verteilung;] [normal; reset; zurücksetzen] - setzt die Energieverteilung zurück.
+
+HUD
+- Chat - zeigt den Chat oder blendet ihn aus.
+
+Kamera
+- Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
+
+mobiGlas
+- Alfred; Moby - zeigt mobiGlas oder blendet es aus.
+
+Navigation:
+- Karte; Sternenkarte - zeigt die Starmap oder blendet sie aus.
+- Kontakte - zeigt die Kontakte oder blendet sie aus.
+
+QoL:
+- nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
+
+**Alte Version:**
+
 Kompatibel mit Alpha 2.6.3 und VoiceAttack 1.6.6
 
 BETA!
