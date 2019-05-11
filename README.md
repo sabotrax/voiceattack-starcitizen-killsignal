@@ -3,9 +3,11 @@ Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhal
 
 *Das Profil befindet sich in Überarbeitung für Alpha 3.5 und VoiceAttack 1.7.5.*
 
+Es wird die Standard-Tastaturbelegung vorausgesetzt.
+
 Siehe "Alte Version" für weitere Informationen.
 
-Befehle, die in der aktuellen SC-Version wieder funktionieren:
+Befehle, die in der aktuellen SC-Version funktionieren:
 
 Energie
 - Energie an; volle Energie - Hauptenergie auf 100 %.
