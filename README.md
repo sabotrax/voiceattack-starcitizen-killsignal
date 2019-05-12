@@ -10,14 +10,19 @@ Siehe "Alte Version" für weitere Informationen.
 Befehle, die in der aktuellen SC-Version funktionieren:
 
 Energie
-- Energie an; volle Energie - Hauptenergie auf 100 %.
-- Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
+- Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
+- [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
+- [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
 - mehr Energie - erhöht die Hauptenergie.
 - weniger Energie - verringert die Hauptenergie.
 - mehr Antrieb; Antrieb verstärken - weist dem Antrieb mehr Energie zu.
 - mehr Schilde; Schilde verstärken - weist den Schilden mehr Energie zu.
 - mehr Waffen; Waffen verstärken - weist den Waffen mehr Energie zu.
 - [normale; standard] Energie[verteilung;]; Energie[verteilung;] [normal; reset; zurücksetzen] - setzt die Energieverteilung zurück.
+- Schiff [an; anschalten; aus; ausschalten] - schaltet das Schiff an oder aus.
+- [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren] [an; anschalten; aus; ausschalten] - schaltet den Antrieb an oder aus.
+- [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an oder aus.
+- Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an oder aus.
 
 HUD
 - Chat - zeigt den Chat oder blendet ihn aus.
@@ -25,8 +30,11 @@ HUD
 Kamera
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
 
+Körper
+- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an oder aus (gleiche Funktion bei "Rumpf").
+
 mobiGlas
-- Alfred; Moby - zeigt mobiGlas oder blendet es aus.
+- Alfred; Computer; Moby - zeigt mobiGlas oder blendet es aus.
 
 Navigation:
 - Karte; Sternenkarte - zeigt die Starmap oder blendet sie aus.
@@ -34,6 +42,16 @@ Navigation:
 
 QoL:
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
+
+Rumpf:
+- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an oder aus (gleiche Funktion bei "Körper").
+
+Sensoren:
+- Aufklärungsmodus - wechselt in den Scannermodus und zurück.
+
+UI:
+- [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
+- [Einladung;] annehmen - nimmt Einladungen an.
 
 **Alte Version:**
 
