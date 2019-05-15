@@ -2,7 +2,8 @@
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
 *Das Profil befindet sich in Überarbeitung für Alpha 3.5 und VoiceAttack 1.7.5.*
-*Siehe "Alte Version" für weitere Informationen.*
+
+*Siehe "Alte Version" für weitere Information.*
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt.
 
