@@ -2,10 +2,9 @@
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
 *Das Profil befindet sich in Überarbeitung für Alpha 3.5 und VoiceAttack 1.7.5.*
+*Siehe "Alte Version" für weitere Informationen.*
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt.
-
-Siehe "Alte Version" für weitere Informationen.
 
 Befehle, die in der aktuellen SC-Version funktionieren:
 
@@ -13,38 +12,41 @@ Energie
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
 - [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
 - [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
-- mehr Energie - erhöht die Hauptenergie.
-- weniger Energie - verringert die Hauptenergie.
+- mehr Energie; Energie erhöhen - erhöht die Hauptenergie.
+- weniger Energie; Energie [vermindern; verringern] - verringert die Hauptenergie.
 - mehr Antrieb; Antrieb verstärken - weist dem Antrieb mehr Energie zu.
 - mehr Schilde; Schilde verstärken - weist den Schilden mehr Energie zu.
 - mehr Waffen; Waffen verstärken - weist den Waffen mehr Energie zu.
 - [normale; standard] Energie[verteilung;]; Energie[verteilung;] [normal; reset; zurücksetzen] - setzt die Energieverteilung zurück.
-- Schiff [an; anschalten; aus; ausschalten] - schaltet das Schiff an oder aus.
-- [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren] [an; anschalten; aus; ausschalten] - schaltet den Antrieb an oder aus.
-- [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an oder aus.
-- Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an oder aus.
+- Schiff [an; anschalten; aus; ausschalten] - schaltet das Schiff an und aus.
+- [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren] [an; anschalten; aus; ausschalten] - schaltet den Antrieb an und aus.
+- [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an und aus.
+- Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an und aus.
 
 HUD
-- Chat - zeigt den Chat oder blendet ihn aus.
+- Chat - blendet den Chat ein und aus.
 
 Kamera
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
 
 Körper
-- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an oder aus (gleiche Funktion bei "Rumpf").
+- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
 mobiGlas
-- Alfred; Computer; Moby - zeigt mobiGlas oder blendet es aus.
+- Alfred; Computer; Moby - blendet MobiGlas ein und aus.
 
 Navigation:
-- Karte; Sternenkarte - zeigt die Starmap oder blendet sie aus.
-- Kontakte - zeigt die Kontakte oder blendet sie aus.
+- Karte; Sternenkarte - blendet die Starmap ein und aus.
+- Kontakte - blendet die Kontakte ein und aus.
 
 QoL:
+- Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 
 Rumpf:
-- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an oder aus (gleiche Funktion bei "Körper").
+- Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
+- Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
+- landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einer Pad schwebt. Fragt nach, wenn das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 
 Sensoren:
 - Aufklärungsmodus - wechselt in den Scannermodus und zurück.
