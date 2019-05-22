@@ -9,7 +9,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt.
 
 Befehle, die in der aktuellen SC-Version funktionieren:
 
-Energie
+Energie:
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
 - [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
 - [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
@@ -24,26 +24,26 @@ Energie
 - [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an und aus.
 - Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an und aus.
 
-Flug
-- aktivieren; Energie; spring; springe; springen; Springer; Sprung - führt einen Quantum-Sprung durch.
+Flug:
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung - führt einen Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
 - koppeln - koppelt den Antrieb ein und aus.
 - Quantum; Sprung [bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;] - schaltet den Quantum-Antrieb an und aus.
 
-HUD
+HUD:
 - Chat - blendet den Chat ein und aus.
 
-Kamera
+Kamera:
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
 
-Kampf
+Kampf:
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 
-Körper
+Körper:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
-mobiGlas
+mobiGlas:
 - Alfred; Computer; Moby - blendet MobiGlas ein und aus.
 - Karte; Sternenkarte - blendet die Starmap ein und aus.
 - Kontakte - blendet die Kontakte ein und aus.
@@ -55,7 +55,7 @@ QoL:
 Rumpf:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
 - Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
-- landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einer Pad schwebt. Fragt nach, wenn das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
+- landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einer Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 
 Sensoren:
 - Aufklärungsmodus - wechselt in den Scannermodus und zurück.
@@ -63,6 +63,9 @@ Sensoren:
 UI:
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] annehmen - nimmt Einladungen an.
+
+Fallstricke:
+- Star Citizen liefert keinen Information über seinen inneren Zustand (im Gegensatz zu Elite Dangerous). Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen. Ich habe dafür noch keine Lösung und bitte, es mir nachzusehen.
 
 **Alte Version:**
 
