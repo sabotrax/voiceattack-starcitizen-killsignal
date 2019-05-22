@@ -1,5 +1,11 @@
 Changelog
 
+20190522
+- "Quantum" und "Sprung" aktualisiert.
+- "koppeln" aktualisiert.
+- "Gegenmaßname wechseln" + "Gegenmaßname abfeuern" aktualisiert.
+- "kreuzen/Tempomat" neu.
+
 20170629
 - "Schleudersitz" um Tastaturkommando erweitert.
 - "abheben" um "los fliegen" erweitert.
