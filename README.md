@@ -65,7 +65,7 @@ UI:
 - [Einladung;] annehmen - nimmt Einladungen an.
 
 Fallstricke:
-- Star Citizen liefert keinen Information über seinen inneren Zustand (im Gegensatz zu Elite Dangerous). Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen. Ich habe dafür noch keine Lösung und bitte, es mir nachzusehen.
+- Star Citizen liefert keine Information über seinen inneren Zustand (im Gegensatz zu Elite Dangerous). Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen. Ich habe dafür noch keine Lösung und bitte, es mir nachzusehen.
 
 **Alte Version:**
 
