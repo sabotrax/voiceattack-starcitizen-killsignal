@@ -24,19 +24,27 @@ Energie
 - [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an und aus.
 - Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an und aus.
 
+Flug
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung - führt einen Quantum-Sprung durch.
+- kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
+- koppeln - koppelt den Antrieb ein und aus.
+- Quantum; Sprung [bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;] - schaltet den Quantum-Antrieb an und aus.
+
 HUD
 - Chat - blendet den Chat ein und aus.
 
 Kamera
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
 
+Kampf
+- Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
+- Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
+
 Körper
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
 mobiGlas
 - Alfred; Computer; Moby - blendet MobiGlas ein und aus.
-
-Navigation:
 - Karte; Sternenkarte - blendet die Starmap ein und aus.
 - Kontakte - blendet die Kontakte ein und aus.
 
