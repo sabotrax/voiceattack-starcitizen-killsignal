@@ -61,7 +61,7 @@ QoL:
 Rumpf:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
 - Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
-- landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einer Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
+- landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 
 Sensoren:
 - Aufklärungsmodus - wechselt in den Scannermodus und zurück.
@@ -71,7 +71,7 @@ UI:
 - [Einladung;] annehmen - nimmt Einladungen an.
 
 Fallstricke:
-- Star Citizen liefert keine Information über seinen inneren Zustand (im Gegensatz zu Elite Dangerous). Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen. Ich habe dafür noch keine Lösung und bitte, es mir nachzusehen.
+- Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
 
 **Alte Version:**
 
