@@ -7,13 +7,7 @@ Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhal
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt.
 
-Erläuterung zur Schreibweise der Sprachbefehle:
-
-Sitzheizung [bitte;] [anschalten; ausschalten]
-
-Damit der Befehl erkannt wird, muss man "Sitzheizung anschalten" oder "Sitzheizung ausschalten" sagen. Klammern gruppieren Ausdrücke, Strichpunkte trennen sie. Steht der Strichpunkt am Ende, so ist das Wort optional, wie "bitte" in diesem Beispiel.
-
-Liste der Befehle:
+Liste der Befehle (Legende unten):
 
 Energie:
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
@@ -69,6 +63,12 @@ Sensoren:
 UI:
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] annehmen - nimmt Einladungen an.
+
+Legende:
+- Baumhaus - Man kann "Baumhaus" sagen.
+- Baum; Haus - Man kann "Baum" oder "Haus" sagen (Strichpunkte trennen Befehle).
+- Baum[Rinde; Krone] - Man kann "Baumrinde" oder "Baumkrone" sagen (Klammern gruppieren sie).
+- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen (Ein Strichpunkt am Ende mach den Teil optional).
 
 Fallstricke:
 - Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
