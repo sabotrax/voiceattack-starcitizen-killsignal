@@ -7,7 +7,13 @@ Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhal
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt.
 
-Befehle, die in der aktuellen SC-Version funktionieren:
+Erläuterung zur Schreibweise der Sprachbefehle:
+
+Sitzheizung [bitte;] [anschalten; ausschalten]
+
+Damit der Befehl erkannt wird, muss man "Sitzheizung anschalten" oder "Sitzheizung ausschalten" sagen. Klammern gruppieren Ausdrücke, Strichpunkte trennen sie. Steht der Strichpunkt am Ende, so ist das Wort optional, wie "bitte" in diesem Beispiel.
+
+Liste der Befehle:
 
 Energie:
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
