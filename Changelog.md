@@ -1,5 +1,10 @@
 Changelog
 
+20190527
+- "Rückspiegel" + "halten" und "abbrechen" erweitert.
+- "Bremse" + "halten" und "abbrechen" erweitert.
+- "Beende Programm" aktualisiert.
+
 20190522
 - "Quantum" und "Sprung" aktualisiert.
 - "koppeln" aktualisiert.
