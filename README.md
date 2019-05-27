@@ -26,6 +26,7 @@ Energie:
 
 Flug:
 - aktivieren; Energie; spring; springe; springen; Springer; Sprung - führt einen Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
+- [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
 - koppeln - koppelt den Antrieb ein und aus.
 - Quantum; Sprung [bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;] - schaltet den Quantum-Antrieb an und aus.
@@ -35,6 +36,7 @@ HUD:
 
 Kamera:
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
+- Rückspiegel [halten;]; Sicht [nach;] [achtern; hinten; rückwärts] [halten;]; was ist hinten [halten;] - schaltet für kurze Zeit auf die Rückkamera. Mit "halten" wird die Umschaltung dauerhaft bis "abbrechen" (siehe "QoL/abbrechen").
 
 Kampf:
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
@@ -49,7 +51,9 @@ mobiGlas:
 - Kontakte - blendet die Kontakte ein und aus.
 
 QoL:
+- abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Verlangt Bestätigung. Kann abgebrochen werden (siehe "QoL/abbrechen").
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 
 Rumpf:
