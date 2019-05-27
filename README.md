@@ -45,7 +45,7 @@ Kampf:
 Körper:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
-mobiGlas:
+MobiGlas:
 - Alfred; Computer; Moby - blendet MobiGlas ein und aus.
 - Karte; Sternenkarte - blendet die Starmap ein und aus.
 - Kontakte - blendet die Kontakte ein und aus.
@@ -72,7 +72,7 @@ Legende:
 - Baumhaus - Man kann "Baumhaus" sagen.
 - Baum; Haus - Man kann "Baum" oder "Haus" sagen (Strichpunkte trennen Befehle).
 - Baum[Rinde; Krone] - Man kann "Baumrinde" oder "Baumkrone" sagen (Klammern gruppieren sie).
-- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen (Ein Strichpunkt am Ende mach den Teil optional).
+- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen (Ein Strichpunkt am Ende macht den Teil optional).
 
 Fallstricke:
 - Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
