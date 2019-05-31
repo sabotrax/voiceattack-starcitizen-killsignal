@@ -1,5 +1,22 @@
 Changelog
 
+20190531
+- Sprachstil [ändern; wechseln] abgeaendert, so dass der Wechsel nicht mehr mit knapp/ausfuehrlich eingeleitet werden kann, sondern hiermit.
+- [ausführlich; gesprächig; knapp] - siehe oben.
+- anvisieren; Focus; focussieren - aktualisiert.
+- [Feind; feindliches Ziel; Gegner; Nahziel] aufschalten - neu.
+- [Freund; Gegner; Grün; Rot; Sonderziel; Ziel] merken - neu.
+- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] plus - neu.
+- vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] minus - neu.
+- [Subziel; Teilziel] zurücksetzen - neu.
+- [Feind; Gegner; Rot] minus; Vorheriger [Feind; Gegner; Rot] - aktualisiert.
+- [Feind; Gegner; Rot] plus; Nächster [Feind; Gegner; Rot] - aktualisiert.
+- [Freund; Grün; Verbündeter] minus; Vorheriger [Freund; Grün; Verbündeter] - aktualisiert.
+- [Freund; Grün; Verbündeter] plus; Nächster [Freund; Grün; Verbündeter] - aktualisiert.
+- Sonderziel minus; vorheriges Sonderziel - neu.
+- Sonderziel plus; nächstes Sonderziel - neu.
+- Computer; Moby - "Alfred" entfernt.
+
 20190527
 - "Rückspiegel" + "halten" und "abbrechen" erweitert.
 - "Bremse" + "halten" und "abbrechen" erweitert.
