@@ -32,7 +32,18 @@ Flug:
 - Quantum; Sprung [bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;] - schaltet den Quantum-Antrieb an und aus.
 
 HUD:
-- Chat - blendet den Chat ein und aus.
+- anvisieren; Focus; focussieren - wählt das Ziel unter dem Fadenkreuz aus.
+- [Feind; feindliches Ziel; Gegner; Nahziel] aufschalten - nächstgelegenen Gegner auswählen.
+- [Feind; Gegner; Rot] minus; Vorheriger [Feind; Gegner; Rot] - wechselt zum vorherigen Gegner.
+- [Feind; Gegner; Rot] plus; Nächster [Feind; Gegner; Rot] - wechselt zum nächsten Gegner.
+- [Freund; Gegner; Grün; Rot; Sonderziel; Ziel] merken - Ziel pinnen.
+- [Freund; Grün; Verbündeter] minus; Vorheriger [Freund; Grün; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
+- [Freund; Grün; Verbündeter] plus; Nächster [Freund; Grün; Verbündeter] - wechselt zum nächsten freundlich gesinnten Ziel.
+- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] plus - nächstes Untersystem des Ziels anvisieren.
+- vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] minus - vorheriges Untersystem des Ziels anvisieren.
+- Sonderziel minus; vorheriges Sonderziel - wechselt zum vorherigen gepinnten Ziel.
+- Sonderziel plus; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
+- [Subziel; Teilziel] zurücksetzen - Auswahl der Untersysteme aufheben.
 
 Kamera:
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
@@ -42,11 +53,14 @@ Kampf:
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 
+Konfiguration:
+- Sprachstil [ändern; wechseln] - leitet die Änderung des Sprachstils ein. Das Profil kann seine Antworten "knapp" halten oder "ausführlich" bzw. "gesprächig" sein.
+
 Körper:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
 MobiGlas:
-- Alfred; Computer; Moby - blendet MobiGlas ein und aus.
+- Computer; Moby - blendet MobiGlas ein und aus.
 - Karte; Sternenkarte - blendet die Starmap ein und aus.
 - Kontakte - blendet die Kontakte ein und aus.
 
@@ -65,6 +79,7 @@ Sensoren:
 - Aufklärungsmodus - wechselt in den Scannermodus und zurück.
 
 UI:
+- Chat - blendet den Chat ein und aus.
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] annehmen - nimmt Einladungen an.
 
