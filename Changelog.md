@@ -1,5 +1,20 @@
 Changelog
 
+20190712
+- Antworten erweitert.
+- [Einladung;] [annehmen; akzeptieren] - erweitert "akzeptieren".
+- [Feind; feindliches Ziel; Gegner; Nahziel; Rot] aufschalten - erweitert "Rot".
+- [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren] [an; anschalten; aus; ausschalten] - erweitert.
+- Schiff [an; anschalten; aus; ausschalten] erweitert.
+- [Subziel; Teilziel] [normal; reset; standard; zurücksetzen] - erweitert.
+- Notausstieg; Schleudersitz; Sofort raus hier - erweitert.
+- Aufklärungsmodus; Scanmodus - Scanmodus dazu.
+- nochmal; wiederholen - erweitert.
+- abheben; los fliegen; Start; starten - erweitert.
+- Rueckspiegel Tastenkombi angepasst wg. 3.6 unbelegt.
+- [Schiff; Tür; Türen] [entsperren; sperren] dazu.
+- [Schiff; Tür; Türen] [öffnen; schließen] dazu.
+
 20190531
 - Sprachstil [ändern; wechseln] abgeaendert, so dass der Wechsel nicht mehr mit knapp/ausfuehrlich eingeleitet werden kann, sondern hiermit.
 - [ausführlich; gesprächig; knapp] - siehe oben.
