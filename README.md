@@ -5,7 +5,7 @@ Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhal
 
 *Siehe "Alte Version" für weitere Information.*
 
-Es wird die Standard-Tastaturbelegung vorausgesetzt.
+Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsprechenden Befehl.
 
 Liste der Befehle (Legende unten):
 
