@@ -1,11 +1,48 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
-*Das Profil befindet sich in Überarbeitung für Alpha 3.6 und VoiceAttack 1.7.7.*
+Über VoiceAttack:
+
+VoiceAttack setzt gesprochene Anweisungen in Tastatur- und Mauseingaben um.
+So lassen sich Spiele wie Star Citizen einfacher steuern.
+
+Über dieses Profil:
+
+Das Profil soll nützlich, robust und intuitiv zu bedienen sein. Es soll außerdem den Eindruck schwacher KI vermitteln, welcher durch vielfältige Antworten, scheinbar eigenständige Handlungen und erweiterbares Wissen erreicht werden soll. Das Profil weist einen leicht zynischen Charakter auf.
+
+Installation:
+
+- VoiceAttack von http://www.voiceattack.com/ besorgen und installieren. Die Probe-Version (Trial) reicht nicht aus.
+- Die Spracherkennung von Windows trainieren (bei Windows 7 unter Systemsteuerung -> Spracherkennung -> Trainieren Sie den Computer). Das Training zwei bis dreimal durchführen.
+- killsignal-36.vap downloaden, VoiceAttack als Administrator starten und Profil importieren (Icon mit Plus-Zeichen). Die Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden (siehe Bemerkungen).
+- Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Standard ist "gesprächig", es geht aber auch "knapp". VoiceAttack neu starten, falls die Frage nach dem Sprachstil nicht gestellt wird.
+
+Upgrade:
+
+Es gibt zwei Möglichen. Die erste ist etwas umständlicher, aber es bleiben statistische Daten erhalten, die sich das Profil gemerkt hat.
+
+- In VoiceAttack auf "Edit Profile" klicken (rechteckiges Icon mit Stift).
+- Im neu geöffneten Fenster auf "Import Commands" klicken (unten links).
+- Im nächsten Fenster das neue Profil auswählen und öffnen.
+- Im nächsten Fenster auf "Import" klicken (unten rechts).
+- Die folgenden zwei Warnungen bestätigen.
+- Das Fenster "Edit Profile" mit Klick auf "Done" schließen (unten rechts).
+
+Die zweite Möglichkeit besteht darin, das vorhandene Profil zu löschen und durch das neue zu ersetzen.
+
+- In VoiceAttack auf "More Profile Actions" klicken (Icon mit Plus-Zeichen).
+- "Delete Profile" auswählen und bestätigen.
+- Das neue Profil wie bei "Installation" beschrieben importieren.
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsprechenden Befehl.
 
-Liste der Befehle (Legende unten):
+Legende zum Verständnis der Befehle:
+- Baumhaus - Man kann "Baumhaus" sagen.
+- Baum; Haus - Man kann "Baum" oder "Haus" sagen (Strichpunkte trennen Befehle).
+- Baum[Rinde; Krone] - Man kann "Baumrinde" oder "Baumkrone" sagen (Klammern gruppieren sie).
+- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen (Ein Strichpunkt am Ende macht den Teil optional).
+
+Liste der Befehle:
 
 Energie:
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
@@ -84,12 +121,6 @@ UI:
 - Chat - blendet den Chat ein und aus.
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] [annehmen; akzeptieren] - nimmt Einladungen an.
-
-Legende:
-- Baumhaus - Man kann "Baumhaus" sagen.
-- Baum; Haus - Man kann "Baum" oder "Haus" sagen (Strichpunkte trennen Befehle).
-- Baum[Rinde; Krone] - Man kann "Baumrinde" oder "Baumkrone" sagen (Klammern gruppieren sie).
-- Katzen[Minze; Haus;] - Man kann "Katzen", "Katzenminze" oder "Katzenhaus" sagen (Ein Strichpunkt am Ende macht den Teil optional).
 
 Fallstricke:
 - Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
