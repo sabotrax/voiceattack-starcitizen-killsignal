@@ -1,7 +1,7 @@
 # voiceattack-starcitizen-killsignal
 Ein VoiceAttack-Profil für Star Citizen mit dynamischen, kontextbezogenen Inhalten und schwacher KI.
 
-*Das Profil befindet sich in Überarbeitung für Alpha 3.6 und VoiceAttack 1.7.5.*
+*Das Profil befindet sich in Überarbeitung für Alpha 3.6 und VoiceAttack 1.7.7.*
 
 *Siehe "Alte Version" für weitere Information.*
 
@@ -34,7 +34,6 @@ Flug:
 
 HUD:
 - anvisieren; Focus; focussieren - wählt das Ziel unter dem Fadenkreuz aus.
-- Aufklärungsmodus; Scanmodus - wechselt zum Scanmodus und zurück.
 - [Feind; feindliches Ziel; Gegner; Nahziel; Rot] aufschalten - nächstgelegenen Gegner auswählen.
 - [Feind; Gegner; Rot] minus; Vorheriger [Feind; Gegner; Rot] - wechselt zum vorherigen Gegner.
 - [Feind; Gegner; Rot] plus; Nächster [Feind; Gegner; Rot] - wechselt zum nächsten Gegner.
@@ -62,7 +61,7 @@ Körper:
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
 
 MobiGlas:
-- Computer; Moby - blendet MobiGlas ein und aus.
+- Computer; Mobi - blendet MobiGlas ein und aus.
 - Karte; Sternenkarte - blendet die Starmap ein und aus.
 - Kontakte - blendet die Kontakte ein und aus.
 
@@ -81,7 +80,7 @@ Rumpf:
 - [Schiff; Tür; Türen] [öffnen; schließen] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
 
 Sensoren:
-- Aufklärungsmodus - wechselt in den Scannermodus und zurück.
+- Aufklärungsmodus; Scanmodus - wechselt zum Scanmodus und zurück.
 
 UI:
 - Chat - blendet den Chat ein und aus.
