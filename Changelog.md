@@ -1,5 +1,23 @@
 Changelog
 
+29190729
+- antwort_ok_gespraechig erweitert.
+- antwort_ok_frech_gespraechig erweitert.
+- [Sub;Teil]ziel [normal; reset; standard; zurücksetzen]; [normal; normales] zielen geaendert.
+- [Rakete; Raketen; Torpedo; Torpedos] [abfeuern; los; starten] dazu.
+- [Rakete; Raketen; Torpedo; Torpedos] [aufschalten;] dazu.
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - setzt sich nach 30 s zurueck.
+- Schildverteilung; Verteilung der Schilde dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] hinten links dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] hinten rechts dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [hinten; zurück] dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] links dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] rechts dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vor; vorn; vorne] dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vorn; vorne] links dazu.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vorn; vorne] rechts dazu.
+- [Schutz;][Schild; Schilde] [normal; reset; standard; zurücksetzen] dazu.
+
 20190712
 - Antworten erweitert.
 - [Einladung;] [annehmen; akzeptieren] - erweitert "akzeptieren".
