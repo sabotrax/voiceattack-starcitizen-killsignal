@@ -79,7 +79,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] minus - vorheriges Untersystem des Ziels anvisieren.
 - Sonderziel minus; vorheriges Sonderziel - wechselt zum vorherigen gepinnten Ziel.
 - Sonderziel plus; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
-- [Subziel; Teilziel] [normal; reset; standard; zurücksetzen] - Auswahl der Untersysteme aufheben.
+- [Sub;Teil]ziel [normal; reset; standard; zurücksetzen]; [normal; normales] zielen - Auswahl der Untersysteme aufheben.
 
 **Kamera:**
 - Ansicht; Kamera - wechselt zwischen den Kamerapositionen.
@@ -88,6 +88,8 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **Kampf:**
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
+- [Rakete; Raketen; Torpedo; Torpedos] [abfeuern; los; starten] - feuert eine Rakete oder Torpedo auf das aufgeschaltete Ziel ab.
+- [Rakete; Raketen; Torpedo; Torpedos] [aufschalten;] - schaltet eine Rakete oder Torpedo auf das ausgewählte Ziel auf.
 
 **Konfiguration:**
 - Sprachstil [ändern; wechseln] - leitet die Änderung des Sprachstils ein. Das Profil kann seine Antworten "knapp" halten oder "ausführlich" bzw. "gesprächig" sein.
@@ -103,7 +105,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **QoL:**
 - abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
-- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Verlangt Bestätigung. Kann abgebrochen werden (siehe "QoL/abbrechen").
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 
 **Rumpf:**
@@ -113,6 +115,21 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz.
 - [Schiff; Tür; Türen] [entsperren; sperren] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
 - [Schiff; Tür; Türen] [öffnen; schließen] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
+
+**Schilde:**
+
+Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn" verstärkt die Schilde dort um 3 mal 25 % und belässt die übrigen mit 75 % (bei vier Schildflächen gesamt). Bei "Schilde halb nach vorn" beträgt die Änderung 50 %, bei "Schilde ganz nach vorn" 75 %.
+
+- Schildverteilung; Verteilung der Schilde - meldet die Schildverteilung.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] hinten links - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] hinten rechts - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [hinten; zurück] - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] links - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] rechts - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vor; vorn; vorne] - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vorn; vorne] links - Schildmanagement.
+- [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] [vorn; vorne] rechts - Schildmanagement.
+- [Schutz;][Schild; Schilde] [normal; reset; standard; zurücksetzen] - setzt die Schildverteilung zurück.
 
 **Sensoren:**
 - Aufklärungsmodus; Scanmodus - wechselt zum Scanmodus und zurück.
