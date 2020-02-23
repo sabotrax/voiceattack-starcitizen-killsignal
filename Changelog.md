@@ -1,6 +1,15 @@
 Changelog
 
-29190729
+20200223
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - erweitert.
+- [Mehr Energie] [auf den; in den; zum;] Antrieb; mehr Antrieb; Antrieb verstärken - erweitert.
+- [Mehr Energie] [auf die; in die; zu den;] [Schilde; Schilden]; mehr Schilde; Schilde verstärken - erweitert.
+- [Mehr Energie] [auf die; in die; zu den;] Waffen; mehr Waffen; Waffen verstärken - erweitert.
+- [Waffen;]Aufhängung [ändern; wechseln] - dazu.
+- [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren; Triebwerk; Triebwerke] [an; anschalten; aus; ausschalten] - erweitert.
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [kippen; waagerecht; senkrecht] dazu.
+
+20190729
 - antwort_ok_gespraechig erweitert.
 - antwort_ok_frech_gespraechig erweitert.
 - [Sub;Teil]ziel [normal; reset; standard; zurücksetzen]; [normal; normales] zielen geaendert.
