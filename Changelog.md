@@ -1,5 +1,11 @@
 Changelog
 
+20200224
+[Teil; Sub]ziel [aufheben; löschen; normal; reset; standard; zurücksetzen]; [normal; normales] zielen - erweitert.
+[Visierung; Ziel] [aufheben; löschen; reset]; [kein; nicht] [Ziel; zielen] - dazu.
+Quantum; Sprung[bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;]; spulen - geaendert.
+[Freund; Gegner; Grün; Rot; Sonderziel; Ziel] [markieren; merken; pinnen] - geaendert.
+
 20200223
 - aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - erweitert.
 - [Mehr Energie] [auf den; in den; zum;] Antrieb; mehr Antrieb; Antrieb verstärken - erweitert.
