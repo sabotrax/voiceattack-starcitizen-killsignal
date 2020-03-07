@@ -107,8 +107,8 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **QoL:**
 - abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
-- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
-- [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln, und der Chat sollte ausgeblendet bleiben.
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
+- [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln.
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 
 **Rumpf:**
