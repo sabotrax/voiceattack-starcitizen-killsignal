@@ -115,7 +115,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Antrieb; Antriebe; Triebwerk; Triebwerke] [fliegen; kippen; landen; senkrecht; tränen; waagerecht] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
 - Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
-- landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 60 %, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
+- landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 40 % Standard, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
 - landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 - Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz.
 - [Schiff; Tür; Türen] [entsperren; sperren] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
