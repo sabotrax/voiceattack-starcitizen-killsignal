@@ -108,12 +108,14 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - Beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
+- [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln, und der Chat sollte ausgeblendet bleiben.
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 
 **Rumpf:**
-- [Antrieb; Antriebe; Triebwerk; Triebwerke] [kippen; waagerecht; senkrecht] - Dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [fliegen; kippen; landen; senkrecht; tränen; waagerecht] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
 - Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
+- landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 60 %, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
 - landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 - Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz.
 - [Schiff; Tür; Türen] [entsperren; sperren] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
@@ -121,7 +123,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **Schilde:**
 
-Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn" verstärkt die Schilde dort um 3 mal 25 % und belässt die übrigen mit 75 % (bei vier Schildflächen gesamt). Bei "Schilde halb nach vorn" beträgt die Änderung 50 %, bei "Schilde ganz nach vorn" 75 %.
+Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn" verstärkt die Schilde dort um 25 % und belässt die übrigen bei 75 % (bei vier Schildflächen gesamt). Bei "Schilde halb nach vorn" beträgt die Änderung 50 %, bei "Schilde ganz nach vorn" 75 %.
 
 - Schildverteilung; Verteilung der Schilde - meldet die Schildverteilung.
 - [Schutz;][Schild; Schilde] [halb; ganz;] [nach;] hinten links - Schildmanagement.

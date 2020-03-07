@@ -1,5 +1,10 @@
 Changelog
 
+20200307
+- landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - dazu.
+- [Chatkorrektur; Chat korrigieren] [ein; aus] - dazu.
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [fliegen; kippen; landen; senkrecht; tränen; waagerecht] - erweitert.
+
 20200224
 - [Teil; Sub]ziel [aufheben; löschen; normal; reset; standard; zurücksetzen]; [normal; normales] zielen - erweitert.
 - [Visierung; Ziel] [aufheben; löschen; reset]; [kein; nicht] [Ziel; zielen] - dazu.
