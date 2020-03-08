@@ -1,5 +1,18 @@
 Changelog
 
+20200308
+- Welches Jahr [haben wir;] - dazu.
+- geh schlafen; hör weg; mach [mal;] Pause - dazu.
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [drehen; fliegen; kippen; landen; senkrecht; tränen; waagerecht] - erweitert.
+- [Schiff; Tür; Türen] [abschließen; entriegeln; entsperren; sperren; verriegeln] - erweitert.
+- [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - erweitert.
+- abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - erweitert.
+- Fahrwerk [ausfahren; einfahren; raus; rein]; Landemodus - erweitert.
+- Sonderziel [minus; zurück]; vorheriges Sonderziel - erweitert.
+- Sonderziel [plus; vor]; nächstes Sonderziel - erweitert.
+- vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [minus; zurück] - erweitert.
+- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - erweitert.
+
 20200307
 - landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - dazu.
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - dazu.

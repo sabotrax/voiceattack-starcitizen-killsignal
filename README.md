@@ -76,9 +76,9 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Freund; Grün; Verbündeter] minus; Vorheriger [Freund; Grün; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
 - [Freund; Grün; Verbündeter] plus; Nächster [Freund; Grün; Verbündeter] - wechselt zum nächsten freundlich gesinnten Ziel.
 - nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] plus - nächstes Untersystem des Ziels anvisieren.
-- vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] minus - vorheriges Untersystem des Ziels anvisieren.
-- Sonderziel minus; vorheriges Sonderziel - wechselt zum vorherigen gepinnten Ziel.
-- Sonderziel plus; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
+- vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [minus; zurück] - vorheriges Untersystem des Ziels anvisieren.
+- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - wechselt zum vorherigen gepinnten Ziel.
+- Sonderziel [plus; vor]; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
 - [Teil; Sub]ziel [aufheben; löschen; normal; reset; standard; zurücksetzen]; [normal; normales] zielen - Auswahl der Untersysteme aufheben.
 - [Visierung; Ziel] [aufheben; löschen; reset]; [kein; nicht] [Ziel; zielen] - Zielauswahl aufheben.
 
@@ -105,21 +105,23 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Kontakte - blendet die Kontakte ein und aus.
 
 **QoL:**
-- abbrechen; Abbruch; aufhören; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
+- abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln.
+- geh schlafen; hör weg; mach [mal;] Pause - Beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
+- Welches Jahr [haben wir;] - nennt das Jahr in SC-Zeitrechnung.
 
 **Rumpf:**
-- [Antrieb; Antriebe; Triebwerk; Triebwerke] [fliegen; kippen; landen; senkrecht; tränen; waagerecht] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [drehen; fliegen; kippen; landen; senkrecht; tränen; waagerecht] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
-- Fahrwerk; Landemodus - fährt das Fahrwerk aus und ein.
+- Fahrwerk [ausfahren; einfahren; raus; rein]; Landemodus - fährt das Fahrwerk aus und ein.
 - landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 40 % Standard, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
 - landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
 - Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz.
-- [Schiff; Tür; Türen] [entsperren; sperren] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
-- [Schiff; Tür; Türen] [öffnen; schließen] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
+- [Schiff; Tür; Türen] [abschließen; entriegeln; entsperren; sperren; verriegeln] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
+- [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
 
 **Schilde:**
 
