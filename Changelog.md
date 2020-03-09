@@ -1,5 +1,10 @@
 Changelog
 
+20200309
+- abbrechen - erweitert (um das Unterbrechen von Storys und abheben).
+- [Schiffstyp; Schiffs Typ] * - Ueberarbeitung begonnen.
+- Antworten erweitert.
+
 20200308
 - Welches Jahr [haben wir;] - dazu.
 - geh schlafen; hör weg; mach [mal;] Pause - dazu.
