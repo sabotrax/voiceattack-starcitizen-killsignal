@@ -45,7 +45,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **Liste der Befehle:**
 
 **Energie:**
-- Flugbereitschaft [herstellen;] - macht das Schiff flugbereit.
+- Flugbereitschaft [herstellen;] - macht das Schiff flugbereit. Rotiert auch die Abwehrmaßnahmen.
 - [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
 - [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
 - mehr Energie; Energie erhöhen - erhöht die Hauptenergie.
@@ -61,11 +61,12 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **Flug:**
 - abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus. Versucht, bei Bedarf das Schiff bzw. die Maschinen zu starten.
-- aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt einen Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
 - [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
 - koppeln - koppelt den Antrieb ein und aus.
 - Quantum; Sprung[bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;]; spulen - schaltet den Quantum-Antrieb an und aus.
+- Sprung [abbrechen; beenden] - bricht den Quantum-Sprung ab.
 
 **HUD:**
 - anvisieren; Focus; focussieren - wählt das Ziel unter dem Fadenkreuz aus.
@@ -106,7 +107,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **QoL:**
 - abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
-- Auf geht's; Auf jeden [Fall;]; Bestätige; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
+- Auf geht's; Auf jeden [Fall;]; Bestätige; Hau rein; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Positiv; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln.
 - geh schlafen; hör weg; mach [mal;] Pause - Beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.

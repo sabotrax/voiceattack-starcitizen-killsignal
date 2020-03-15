@@ -1,5 +1,12 @@
 Changelog
 
+20200315
+- Sprung [abbrechen; beenden] - dazu.
+- flugbereit machen - erweitert: rotiert Abwehrmaßnamen wegen Null-Anzeigebug.
+- Auf geht's; Auf jeden [Fall;]; Bestätige; Hau rein; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Positiv; Sicherlich - erweitert.
+- Bug bei der Sprachantwort von verketteten Kommandos gefixt.
+- Antworten erweitert.
+
 20200309
 - abbrechen - erweitert (um das Unterbrechen von Storys und abheben).
 - [Schiffstyp; Schiffs Typ] * - Ueberarbeitung begonnen.
