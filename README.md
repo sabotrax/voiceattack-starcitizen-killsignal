@@ -76,6 +76,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Freund; Gegner; Grün; Rot; Sonderziel; Ziel] [markieren; merken; pinnen] - Ziel pinnen.
 - [Freund; Grün; Verbündeter] minus; Vorheriger [Freund; Grün; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
 - [Freund; Grün; Verbündeter] plus; Nächster [Freund; Grün; Verbündeter] - wechselt zum nächsten freundlich gesinnten Ziel.
+- [grüne; grünes; rote; rotes] [Ziel; Ziele] wechseln - wechselt das Ziel, freundlich oder feindlich, im Abstand von 3 Sekunden bis "abbrechen" (siehe "QoL/abbrechen"). Wird auch durch andere Befehle unterbrochen.
 - nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] plus - nächstes Untersystem des Ziels anvisieren.
 - vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [minus; zurück] - vorheriges Untersystem des Ziels anvisieren.
 - nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - wechselt zum vorherigen gepinnten Ziel.

@@ -1,4 +1,11 @@
 Changelog
+20200321
+- [grüne; grünes; rote; rotes] [Ziel; Ziele] wechseln - dazu.
+- [Feind; Gegner; Rot] [minus; zurück]; Vorheriger [Feind; Gegner; Rot] - erweitert.
+- [Feind; Gegner; Rot] [plus; vor]; Nächster [Feind; Gegner; Rot] - erweitert.
+- [Freund; Grün; Verbündeter] [minus; zurück]; Vorheriger [Freund; Grün; Verbündeter] - erweitert.
+- [Freund; Grün; Verbündeter] [plus; vor]; Nächster [Freund; Grün; Verbündeter] - erweitert.
+- Antworten erweitert.
 
 20200315
 - Sprung [abbrechen; beenden] - dazu.
