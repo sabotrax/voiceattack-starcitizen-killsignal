@@ -1,4 +1,11 @@
 Changelog
+20200404
+- Fluchtmodus - dazu.
+- [Weniger Energie] [auf den; in den; zum;] Antrieb; weniger Antrieb; Antrieb [minus; verringern] - dazu.
+- [Weniger Energie] [auf die; in die; zu den;] [Schilde; Schilden]; weniger Schilde; Schilde [minus; verringern] - dazu.
+- [Weniger Energie] [auf die; in die; zu den;] Waffen; weniger Waffen; Waffen [minus; verringern] - dazu.
+- Antworten erweitert.
+
 20200321
 - [grüne; grünes; rote; rotes] [Ziel; Ziele] wechseln - dazu.
 - [Feind; Gegner; Rot] [minus; zurück]; Vorheriger [Feind; Gegner; Rot] - erweitert.

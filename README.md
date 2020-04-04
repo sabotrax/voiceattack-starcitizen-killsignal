@@ -45,7 +45,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **Liste der Befehle:**
 
 **Energie:**
-- Flugbereitschaft [herstellen;] - macht das Schiff flugbereit. Rotiert auch die Abwehrmaßnahmen.
+- Flugbereitschaft [herstellen;] - macht das Schiff flugbereit. Rotiert auch die Gegenmaßnahmen.
 - [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
 - [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
 - mehr Energie; Energie erhöhen - erhöht die Hauptenergie.
@@ -58,11 +58,15 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren; Triebwerk; Triebwerke] [an; anschalten; aus; ausschalten] - schaltet den Antrieb an und aus.
 - [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an und aus.
 - Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an und aus.
+- [Weniger Energie] [auf den; in den; zum;] Antrieb; weniger Antrieb; Antrieb [minus; verringern] - weist den Waffen und Schilden mehr Energie zu.
+- [Weniger Energie] [auf die; in die; zu den;] [Schilde; Schilden]; weniger Schilde; Schilde [minus; verringern] - weist dem Antrieb und Waffen mehr Energie zu.
+- [Weniger Energie] [auf die; in die; zu den;] Waffen; weniger Waffen; Waffen [minus; verringern] - weist dem Antrieb und Schilden mehr Energie zu.
 
 **Flug:**
 - abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus. Versucht, bei Bedarf das Schiff bzw. die Maschinen zu starten.
 - aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
 - [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
+- Fluchtmodus - verstärkt die hinteren Schilde maximal, weist dem Antrieb und Schilden alle Energie zu, rotiert die Gegenmaßnamen.
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
 - koppeln - koppelt den Antrieb ein und aus.
 - Quantum; Sprung[bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;]; spulen - schaltet den Quantum-Antrieb an und aus.
