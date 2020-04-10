@@ -1,4 +1,12 @@
 Changelog
+20200410
+- [Alarm; Modus] [aufheben; beenden; reset; zurücksetzen] - dazu.
+- [Melde; Nenne; Welcher; Welches] Schiff[styp;] - dazu.
+- [Schiffstyp; Schiffs Typ] &ast; - erweitert um "zurücksetzen".
+- [Schiffstyp; Schiffs Typ] &ast; - um Arrow und Carrack erweitert.
+- Schiffstyp: Cutlass-Variablen angepasst.
+- Antworten erweitert.
+
 20200404
 - Fluchtmodus - dazu.
 - [Weniger Energie] [auf den; in den; zum;] Antrieb; weniger Antrieb; Antrieb [minus; verringern] - dazu.

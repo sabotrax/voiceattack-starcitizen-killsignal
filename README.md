@@ -63,8 +63,9 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Weniger Energie] [auf die; in die; zu den;] Waffen; weniger Waffen; Waffen [minus; verringern] - weist dem Antrieb und Schilden mehr Energie zu.
 
 **Flug:**
-- abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus. Versucht, bei Bedarf das Schiff bzw. die Maschinen zu starten.
+- abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus. Versucht, bei Bedarf das Schiff bzw. die Maschinen zu starten. Beachtet den Schiffstyp (siehe "Rumpf/Schiffstyp &ast;").
 - aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
+- [Alarm; Modus] [aufheben; beenden; reset; zurücksetzen] - setzt die Schild- und Energieverteilung zurück.
 - [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
 - Fluchtmodus - verstärkt die hinteren Schilde maximal, weist dem Antrieb und Schilden alle Energie zu, rotiert die Gegenmaßnamen.
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
@@ -125,9 +126,12 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Fahrwerk [ausfahren; einfahren; raus; rein]; Landemodus - fährt das Fahrwerk aus und ein.
 - landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 40 % Standard, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
 - landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
-- Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz.
+- [Melde; Nenne; Welcher; Welches] Schiff[styp;] - meldet den Schiffstyp.
+- Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz. Beachtet den Schiffstyp (siehe "Rumpf/Schiffstyp &ast;").
 - [Schiff; Tür; Türen] [abschließen; entriegeln; entsperren; sperren; verriegeln] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
 - [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
+- [Schiffstyp; Schiffs Typ] &ast; - macht dem Profil ein Schiff bekannt (siehe "Schiffstypen").
+- [Schiffstyp; Schiffs Typ] [reset; zurücksetzen] - hebt die Zuweisung des Schiffstyps auf.
 
 **Schilde:**
 
@@ -151,6 +155,16 @@ Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn"
 - Chat - blendet den Chat ein und aus.
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] [annehmen; akzeptieren] - nimmt Einladungen an.
+
+**Schiffstypen:** BETA
+
+Schiffstypen werden über Codes angegeben und nur für QoL-Aspekte verwendet, wie z. B. die Zeit bis zum Abheben oder das Wissen um den Schleudersitz.
+
+Man kann sagen "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
+
+- A1 - Anvil Pisces
+- A11 - Anvil Carrack
+- D4 - Drake Cutlass
 
 **Bemerkungen:**
 - Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
