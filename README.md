@@ -156,11 +156,11 @@ Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn"
 - [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
 - [Einladung;] [annehmen; akzeptieren] - nimmt Einladungen an.
 
-**Schiffstypen:** BETA
+**Schiffstypen &ast;&ast;BETA&ast;&ast;:**
 
 Schiffstypen werden über Codes angegeben und nur für QoL-Aspekte verwendet, wie z. B. die Zeit bis zum Abheben oder das Wissen um den Schleudersitz.
 
-Man kann sagen "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
+Man kann "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
 
 - A1 - Anvil Pisces
 - A11 - Anvil Carrack
