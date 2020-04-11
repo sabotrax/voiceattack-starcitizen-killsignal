@@ -1,4 +1,5 @@
 Changelog
+
 20200411
 - Selbstzerstörung[ssequenz;] [einleiten; initiieren] - dazu.
 - [Schiffstyp; Schiffs Typ] * - um Hornet erweitert.
