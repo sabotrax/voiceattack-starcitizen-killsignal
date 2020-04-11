@@ -132,6 +132,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
 - [Schiffstyp; Schiffs Typ] &ast; - macht dem Profil ein Schiff bekannt (siehe "Schiffstypen").
 - [Schiffstyp; Schiffs Typ] [reset; zurücksetzen] - hebt die Zuweisung des Schiffstyps auf.
+- Selbstzerstörung[ssequenz;] [einleiten; initiieren] - startet die Selbstzerstörung. Meldet die verbleibende Zeit bei 10 und 5 Sekunden, wenn der Schiffstyp bekannt ist (siehe "Rumpf/Schiffstyp &ast;").
 
 **Schilde:**
 
@@ -163,6 +164,7 @@ Schiffstypen werden über Codes angegeben und nur für QoL-Aspekte verwendet, wi
 Man kann "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
 
 - A1 - Anvil Pisces
+- A7 - Anvil Hornet
 - A11 - Anvil Carrack
 - D4 - Drake Cutlass
 

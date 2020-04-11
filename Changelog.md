@@ -1,4 +1,10 @@
 Changelog
+20200411
+- Selbstzerstörung[ssequenz;] [einleiten; initiieren] - dazu.
+- [Schiffstyp; Schiffs Typ] * - um Hornet erweitert.
+- Schreibweise von Befehlen korrigiert.
+- Antworten erweitert.
+
 20200410
 - [Alarm; Modus] [aufheben; beenden; reset; zurücksetzen] - dazu.
 - [Melde; Nenne; Welcher; Welches] Schiff[styp;] - dazu.
