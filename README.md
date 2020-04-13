@@ -54,7 +54,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Mehr Energie] [auf die; in die; zu den;] [Schilde; Schilden]; mehr Schilde; Schilde verstärken - weist den Schilden mehr Energie zu.
 - [Mehr Energie] [auf die; in die; zu den;] Waffen; mehr Waffen; Waffen verstärken - weist den Waffen mehr Energie zu.
 - [normale; standard] Energie[verteilung;]; Energie[verteilung;] [normal; reset; zurücksetzen] - setzt die Energieverteilung zurück.
-- Schiff [an; anschalten; aus; ausschalten] - schaltet das Schiff an und aus.
+- Schiff [an; anschalten; aus; ausschalten] - schaltet das Schiff an und aus. Kann auch den Antrieb schalten (siehe "QoL/Schiff plus Antrieb schalten").
 - [Schiffs;] [Antrieb; Maschine; Maschinen; Motor; Motoren; Triebwerk; Triebwerke] [an; anschalten; aus; ausschalten] - schaltet den Antrieb an und aus.
 - [Schiffs;] Waffen [an; anschalten; aus; ausschalten] - schaltet die Waffen an und aus.
 - Schilde [an; anschalten; aus; ausschalten] - schaltet die Schilde an und aus.
@@ -115,9 +115,10 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Hau rein; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Positiv; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
 - Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
-- [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat immer wieder eingeblendet wird, wenn man die Schiffskamera verwendet. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera per VoiceAttack wechseln.
+- [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat beim Wechseln der Perspektive immer wieder eingeblendet wird. Funktioniert bei Kamera und Rückspiegel. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera/Rückspiegel per VoiceAttack verwenden.
 - geh schlafen; hör weg; mach [mal;] Pause - Beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
+- Schiff [plus Antrieb schalten; schaltet Antrieb] [ein; aus] - korrigiert den Fehler, dass nach dem Ausschalten des Schiffs weiterhin der Antrieb läuft und zu sehen ist.
 - Welches Jahr [haben wir;] - nennt das Jahr in SC-Zeitrechnung.
 
 **Rumpf:**
@@ -132,7 +133,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
 - [Schiffstyp; Schiffs Typ] &ast; - macht dem Profil ein Schiff bekannt (siehe "Schiffstypen").
 - [Schiffstyp; Schiffs Typ] [reset; zurücksetzen] - hebt die Zuweisung des Schiffstyps auf.
-- Selbstzerstörung[ssequenz;] [einleiten; initiieren] - startet die Selbstzerstörung. Meldet die verbleibende Zeit bei 10 und 5 Sekunden, wenn der Schiffstyp bekannt ist (siehe "Rumpf/Schiffstyp &ast;").
+- Selbstzerstörung[ssequenz;] [einleiten; initiieren; starten] - startet die Selbstzerstörung. Meldet die verbleibende Zeit bei 10 und 5 Sekunden, wenn der Schiffstyp bekannt ist (siehe "Rumpf/Schiffstyp &ast;").
 
 **Schilde:**
 

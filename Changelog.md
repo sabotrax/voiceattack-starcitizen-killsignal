@@ -1,5 +1,15 @@
 Changelog
 
+20200413
+- [Chatkorrektur; Chat korrigieren] [ein; aus] - auf "Rückspiegel" angewendet.
+- Schiff [an; anschalten; aus; ausschalten] - um moegliches Schalten des Antriebs erweitert.
+- Schiff [plus Antrieb schalten; schaltet Antrieb] [ein; aus] - dazu.
+- [Schiffstyp; Schiffs Typ] [ist;] * - erweitert.
+- [Schiffstyp; Schiffs Typ] [ist;] - "zurücksetzen" erweitert um "aufheben".
+- Selbstzerstörung[ssequenz;] [einleiten; initiieren; starten] - erweitert.
+- Veraltete Befehle geloescht.
+- Antworten erweitert.
+
 20200411
 - Selbstzerstörung[ssequenz;] [einleiten; initiieren] - dazu.
 - [Schiffstyp; Schiffs Typ] * - um Hornet erweitert.
