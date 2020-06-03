@@ -14,7 +14,7 @@ Das Profil soll nützlich, robust und intuitiv zu bedienen sein. Es soll außerd
 
 - VoiceAttack von http://www.voiceattack.com/ besorgen und installieren. Die Probe-Version (Trial) reicht nicht aus.
 - Die Spracherkennung von Windows trainieren (bei Windows 10 unter Systemsteuerung -> Spracherkennung -> Computer trainieren, damit er Sie besser versteht). Das Training mehrmals durchführen.
-- killsignal-382.vap downloaden, VoiceAttack als Administrator starten und Profil importieren (Icon mit Plus-Zeichen). Die Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden (siehe Bemerkungen).
+- killsignal-391.vap downloaden, VoiceAttack als Administrator starten und Profil importieren (Icon mit Plus-Zeichen). Die Warnung, dass das Profil auf andere Anwendungen zugreifen will, kann ignoriert werden (siehe Bemerkungen).
 - Beim ersten Start fragt das Profil nach dem bevorzugten Sprachstil. Standard ist "gesprächig", es geht aber auch "knapp". VoiceAttack neu starten, falls die Frage nach dem Sprachstil nicht gestellt wird.
 
 **Upgrade:**
@@ -97,6 +97,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
 - Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
 - [Rakete; Raketen; Torpedo; Torpedos] [abfeuern; los; starten] - feuert eine Rakete oder Torpedo auf das aufgeschaltete Ziel ab.
+- [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - Raketen-Zielauswahl aufheben.
 - [Rakete; Raketen; Torpedo; Torpedos] [aufschalten;] - schaltet eine Rakete oder Torpedo auf das ausgewählte Ziel auf.
 - [Waffen;]Aufhängung [ändern; wechseln] - Gimbal-Modus ändern.
 
@@ -117,6 +118,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat beim Wechseln der Perspektive immer wieder eingeblendet wird. Funktioniert bei Kamera und Rückspiegel. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera/Rückspiegel per VoiceAttack verwenden.
 - geh schlafen; hör weg; mach [mal;] Pause - Beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
+- [gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - berichtet Nachrichten rund um Star Citizen.
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 - Schiff [plus Antrieb schalten; schaltet Antrieb] [ein; aus] - korrigiert den Fehler, dass nach dem Ausschalten des Schiffs weiterhin der Antrieb läuft und zu sehen ist.
 - Welches Jahr [haben wir;] - nennt das Jahr in SC-Zeitrechnung.

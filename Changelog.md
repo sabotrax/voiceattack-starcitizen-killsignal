@@ -1,5 +1,11 @@
 Changelog
 
+20200603
+- [gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - ueberarbeitet und reaktiviert.
+- [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - dazu.
+- Zusammenspiel von Tastendruck und Sprachbefehl verbessert bei Quantum-Befehlen.
+- Antworten erweitert.
+
 20200413
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - auf "Rückspiegel" angewendet.
 - Schiff [an; anschalten; aus; ausschalten] - um moegliches Schalten des Antriebs erweitert.
