@@ -85,8 +85,8 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [grüne; grünes; rote; rotes] [Ziel; Ziele] wechseln - wechselt das Ziel, freundlich oder feindlich, im Abstand von 3 Sekunden bis "abbrechen" (siehe "QoL/abbrechen"). Wird auch durch andere Befehle unterbrochen.
 - nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - nächstes Untersystem des Ziels anvisieren.
 - vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [minus; zurück] - vorheriges Untersystem des Ziels anvisieren.
-- Sonderziel [minus; zurück]; vorheriges Sonderziel - wechselt zum vorherigen gepinnten Ziel.
-- Sonderziel [plus; vor]; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
+- Sonderziel [minus; zurück]; [vorheriger; vorheriges] [Pin; Sonderziel] - wechselt zum vorherigen gepinnten Ziel.
+- Sonderziel [plus; vor]; [nächster; nächstes] [Pin; Sonderziel] - wechselt zum nächsten gepinnten Ziel.
 - [Teil; Sub]ziel [aufheben; löschen; normal; reset; standard; zurücksetzen]; [normal; normales] zielen - Auswahl der Untersysteme aufheben.
 - [Visierung; Ziel] [aufheben; löschen; reset]; [kein; nicht] [Ziel; zielen] - Zielauswahl aufheben.
 
@@ -100,7 +100,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Rakete; Raketen; Torpedo; Torpedos] [abfeuern; los; starten] - feuert eine Rakete oder Torpedo auf das aufgeschaltete Ziel ab.
 - [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - Raketen-Zielauswahl aufheben. Taste LALT + M.
 - [Rakete; Raketen; Torpedo; Torpedos] [aufschalten;] - schaltet eine Rakete oder Torpedo auf das ausgewählte Ziel auf.
-- [Waffen;]Aufhängung [ändern; wechseln] - Gimbal-Modus ändern.
+- [Waffen;]Aufhängung [ändern; beweglich; fest; fix; kardan; kardanisch; wechseln] - Gimbal-Modus ändern.
 
 **Konfiguration:**
 - Sprachstil [ändern; wechseln] - leitet die Änderung des Sprachstils ein. Das Profil kann seine Antworten "knapp" halten oder "ausführlich" bzw. "gesprächig" sein.

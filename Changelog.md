@@ -1,5 +1,11 @@
 Changelog
 
+2020060402
+- Sonderziel [minus; zurück]; [vorheriger; vorheriges] [Pin; Sonderziel] - erweitert.
+- Sonderziel [plus; vor]; [nächster; nächstes] [Pin; Sonderziel] - erweitert.
+- [Waffen;]Aufhängung [ändern; beweglich; fest; fix; kardan; kardanisch; wechseln] - erweitert.
+- Aendern des Sprachstils funktioniert jetzt ohne aktives SC.
+
 20200604
 - [Aufklärungsmodus; Scanner; Scanmodus] [an; aus; ein] - Aufruf geaendert.
 - mehr Energie; Energie[zufuhr;] erhöhen - Aufruf geaendert.
