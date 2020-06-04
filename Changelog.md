@@ -1,5 +1,11 @@
 Changelog
 
+20200604
+- [Aufklärungsmodus; Scanner; Scanmodus] [an; aus; ein] - Aufruf geaendert.
+- mehr Energie; Energie[zufuhr;] erhöhen - Aufruf geaendert.
+- weniger Energie; Energie[zufuhr;] [vermindern; verringern] - Aufruf geaendert.
+- Fehler in Readme behoben
+
 20200603
 - [gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - ueberarbeitet und reaktiviert.
 - [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - dazu.

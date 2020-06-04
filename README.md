@@ -48,8 +48,8 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Flugbereitschaft [herstellen;] - macht das Schiff flugbereit. Rotiert auch die Gegenmaßnahmen.
 - [Haupt;] Energie an; volle Energie - Hauptenergie auf 100 %.
 - [Haupt;] Energie aus - Hauptenergie auf 0 %. Achtung, schaltet z. Z. das Schiff aus.
-- mehr Energie; Energie erhöhen - erhöht die Hauptenergie.
-- weniger Energie; Energie [vermindern; verringern] - verringert die Hauptenergie.
+- mehr Energie; Energie[zufuhr;] erhöhen - erhöht die Hauptenergie.
+- weniger Energie; Energie[zufuhr;] [vermindern; verringern] - verringert die Hauptenergie.
 - [Mehr Energie] [auf den; in den; zum;] Antrieb; mehr Antrieb; Antrieb verstärken - weist dem Antrieb mehr Energie zu.
 - [Mehr Energie] [auf die; in die; zu den;] [Schilde; Schilden]; mehr Schilde; Schilde verstärken - weist den Schilden mehr Energie zu.
 - [Mehr Energie] [auf die; in die; zu den;] Waffen; mehr Waffen; Waffen verstärken - weist den Waffen mehr Energie zu.
@@ -67,7 +67,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
 - [Alarm; Modus] [aufheben; beenden; reset; zurücksetzen] - setzt die Schild- und Energieverteilung zurück.
 - [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
-- Fluchtmodus - verstärkt die hinteren Schilde maximal, weist dem Antrieb und Schilden alle Energie zu, rotiert die Gegenmaßnamen.
+- Fluchtmodus - verstärkt die hinteren Schilde maximal, weist dem Antrieb und Schilden alle Energie zu, rotiert die Gegenmaßnahmen.
 - kreuzen; Tempomat - schaltet den Cruise-Modus an und aus.
 - koppeln - koppelt den Antrieb ein und aus.
 - Quantum; Sprung[bereit machen; vorbereiten]; Sprungbereitschaft [herstellen;]; spulen - schaltet den Quantum-Antrieb an und aus.
@@ -82,9 +82,9 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Freund; Grün; Verbündeter] minus; Vorheriger [Freund; Grün; Verbündeter] - wechselt zum vorherigen freundlich gesinnten Ziel.
 - [Freund; Grün; Verbündeter] plus; Nächster [Freund; Grün; Verbündeter] - wechselt zum nächsten freundlich gesinnten Ziel.
 - [grüne; grünes; rote; rotes] [Ziel; Ziele] wechseln - wechselt das Ziel, freundlich oder feindlich, im Abstand von 3 Sekunden bis "abbrechen" (siehe "QoL/abbrechen"). Wird auch durch andere Befehle unterbrochen.
-- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] plus - nächstes Untersystem des Ziels anvisieren.
+- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - nächstes Untersystem des Ziels anvisieren.
 - vorheriges [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [minus; zurück] - vorheriges Untersystem des Ziels anvisieren.
-- nächstes [Subziel; Teilziel] [aufschalten;]; [Subziel; Teilziel] [plus; vor] - wechselt zum vorherigen gepinnten Ziel.
+- Sonderziel [minus; zurück]; vorheriges Sonderziel - wechselt zum vorherigen gepinnten Ziel.
 - Sonderziel [plus; vor]; nächstes Sonderziel - wechselt zum nächsten gepinnten Ziel.
 - [Teil; Sub]ziel [aufheben; löschen; normal; reset; standard; zurücksetzen]; [normal; normales] zielen - Auswahl der Untersysteme aufheben.
 - [Visierung; Ziel] [aufheben; löschen; reset]; [kein; nicht] [Ziel; zielen] - Zielauswahl aufheben.
@@ -94,10 +94,10 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Rückspiegel [halten;]; Sicht [nach;] [achtern; hinten; rückwärts] [halten;]; was ist hinten [halten;] - schaltet für kurze Zeit auf die Rückkamera. Mit "halten" wird die Umschaltung dauerhaft bis "abbrechen" (siehe "QoL/abbrechen"). Taste LALT + J.
 
 **Kampf:**
-- Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßname; Gegenmaßnamen] [abfeuern; los; raus] - löst die aktive Gegenmaßname (Flare/Chaff) aus.
-- Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßname; Gegenmaßnamen]; [Gegenmaßname; Gegenmaßnamen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnamen (Flare/Chaff).
+- Abwehr[maßname; maßnamen;] [abfeuern; los; raus]; [Gegenmaßnahme; Gegenmaßnahmen] [abfeuern; los; raus] - löst die aktive Gegenmaßnahme (Flare/Chaff) aus.
+- Abwehr[maßname;maßnamen;] [ändern; tauschen; umschalten; wechseln]; andere Abwehr[maßname; maßnamen;]; andere [Gegenmaßnahme; Gegenmaßnahmen]; [Gegenmaßnahme; Gegenmaßnahmen] [ändern; tauschen; umschalten; wechseln] - wechselt zwischen den Gegenmaßnahmen (Flare/Chaff).
 - [Rakete; Raketen; Torpedo; Torpedos] [abfeuern; los; starten] - feuert eine Rakete oder Torpedo auf das aufgeschaltete Ziel ab.
-- [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - Raketen-Zielauswahl aufheben.
+- [Rakete; Raketen; Torpedo; Torpedos] [aufheben; löschen; reset] - Raketen-Zielauswahl aufheben. Taste LALT + M.
 - [Rakete; Raketen; Torpedo; Torpedos] [aufschalten;] - schaltet eine Rakete oder Torpedo auf das ausgewählte Ziel auf.
 - [Waffen;]Aufhängung [ändern; wechseln] - Gimbal-Modus ändern.
 
@@ -129,7 +129,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - Fahrwerk [ausfahren; einfahren; raus; rein]; Landemodus - fährt das Fahrwerk aus und ein.
 - landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 40 % Standard, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
 - landen - aktiviert die automatische Landung. Funktioniert nur, wenn man mit Landeerlaubnis über einem Pad schwebt. Fragt nach, falls das Fahrwerk nicht ausgefahren wurde (siehe "QoL/Auf geht's").
-- [Melde; Nenne; Welcher; Welches] Schiff[styp;] - meldet den Schiffstyp.
+- [Melde; Nenne; Welcher; Welches] Schiff[styp;] - meldet den Schiffstyp (siehe "Rumpf/Schiffstyp &ast;").
 - Notausstieg; Schleudersitz; Sofort raus hier - betätigt den Schleudersitz. Beachtet den Schiffstyp (siehe "Rumpf/Schiffstyp &ast;").
 - [Schiff; Tür; Türen] [abschließen; entriegeln; entsperren; sperren; verriegeln] - sperrt die Türen, Fahrstühle und Rampen des Schiffs auf und zu.
 - [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
@@ -153,7 +153,7 @@ Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn"
 - [Schutz;][Schild; Schilde] [normal; reset; standard; zurücksetzen] - setzt die Schildverteilung zurück.
 
 **Sensoren:**
-- Aufklärungsmodus; Scanmodus - wechselt zum Scanmodus und zurück.
+- [Aufklärungsmodus; Scanner; Scanmodus] [an; aus; ein] - wechselt zum Scanmodus und zurück.
 
 **UI:**
 - Chat - blendet den Chat ein und aus.
