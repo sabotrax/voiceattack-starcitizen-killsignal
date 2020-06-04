@@ -19,7 +19,7 @@ Das Profil soll nützlich, robust und intuitiv zu bedienen sein. Es soll außerd
 
 **Upgrade:**
 
-Es gibt zwei Möglichen. Die erste ist etwas umständlicher, aber es bleiben statistische Daten erhalten, die sich das Profil gemerkt hat.
+Es gibt zwei Möglichen. Die erste ist etwas umständlicher, aber es bleiben die statistischen Daten erhalten.
 
 - In VoiceAttack auf "Edit Profile" klicken (rechteckiges Icon mit Stift).
 - Im neu geöffneten Fenster auf "Import Commands" klicken (unten links).
@@ -31,8 +31,9 @@ Es gibt zwei Möglichen. Die erste ist etwas umständlicher, aber es bleiben sta
 Die zweite Möglichkeit besteht darin, das vorhandene Profil zu löschen und durch das neue zu ersetzen.
 
 - In VoiceAttack auf "More Profile Actions" klicken (Icon mit Plus-Zeichen).
-- "Delete Profile" auswählen und bestätigen.
-- Das neue Profil wie bei "Installation" beschrieben importieren.
+- "Import Profile" auswählen und das Profil importieren. Es wird dabei umbenannt, weil es den gleichen Namen hat.
+- "Delete Profile" auswählen und das alte Profil löschen.
+- Wenn gewünscht, auf "Edit Profile" klicken (Icon mit Stift) und den Namen im oberen Textfeld zurück ändern.
 
 Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsprechenden Befehl.
 
