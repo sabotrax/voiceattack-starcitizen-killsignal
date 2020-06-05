@@ -1,6 +1,16 @@
 Changelog
 
 2020060402
+- [Bremse; bremsen; verzögern] [halten;] - kann wiederholt werden, wenn ohne "halten" aufgerufen.
+- Rückspiegel [halten;] - ebenso.
+- beende [Programm; Prozess; Spiel] - merkt sich Aufruf in statistischen Daten.
+- Selbstzerstörung[ssequenz;] - ebenso.
+- [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - aktualisiert und erweitert.
+- noch ein Schiff zerstört - aktualisiert.
+- [Schiffstyp; Schiffs Typ] * - um Hawk, Reliant und Freelancer erweitert.
+- Antworten erweitert.
+
+2020060402
 - Sonderziel [minus; zurück]; [vorheriger; vorheriges] [Pin; Sonderziel] - erweitert.
 - Sonderziel [plus; vor]; [nächster; nächstes] [Pin; Sonderziel] - erweitert.
 - [Waffen;]Aufhängung [ändern; beweglich; fest; fix; kardan; kardanisch; wechseln] - erweitert.

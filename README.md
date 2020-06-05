@@ -65,7 +65,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **Flug:**
 - abheben; los fliegen; Start; starten - lässt das Schiff ein paar Meter abheben und wechselt vom Lande- in den Flugmodus. Versucht, bei Bedarf das Schiff bzw. die Maschinen zu starten. Beachtet den Schiffstyp (siehe "Rumpf/Schiffstyp &ast;").
-- aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's").
+- aktivieren; Energie; spring; springe; springen; Springer; Sprung [ausführen; durchführen;] - führt den Quantum-Sprung durch. Fragt nach, falls der Quantum-Antrieb nicht aktiviert wurde (siehe "QoL/Auf geht's"). Wird geloggt (siehe "QoL/Daten").
 - [Alarm; Modus] [aufheben; beenden; reset; zurücksetzen] - setzt die Schild- und Energieverteilung zurück.
 - [Bremse; bremsen; verzögern] [halten;] - aktiviert Spacebrake für eine kurze Zeit. Mit "halten" wird dauerhaft gebremst bis "abbrechen" (siehe "QoL/abbrechen").
 - Fluchtmodus - verstärkt die hinteren Schilde maximal, weist dem Antrieb und Schilden alle Energie zu, rotiert die Gegenmaßnahmen.
@@ -116,10 +116,12 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 **QoL:**
 - abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
 - Auf geht's; Auf jeden [Fall;]; Bestätige; Hau rein; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Positiv; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
-- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen").
+- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen"). Wird geloggt (siehe "QoL/Daten").
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat beim Wechseln der Perspektive immer wieder eingeblendet wird. Funktioniert bei Kamera und Rückspiegel. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera/Rückspiegel per VoiceAttack verwenden.
-- geh schlafen; hör weg; mach [mal;] Pause - Beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
+- [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - liest geloggte Daten vor: Anzahl QD-Sprünge, zerstörte andere Schiffe, ausgelöste Selbstzerstörungen, Harakiris und gekillte Spielprozesse.
+- geh schlafen; hör weg; mach [mal;] Pause - beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
 - [gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - berichtet Nachrichten rund um Star Citizen.
+- noch ein Schiff zerstört - loggt die Zerstörung eines fremden Schiffs (siehe "QoL/Daten").
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 - Schiff [plus Antrieb schalten; schaltet Antrieb] [ein; aus] - korrigiert den Fehler, dass nach dem Ausschalten des Schiffs weiterhin der Antrieb läuft und zu sehen ist.
 - Welches Jahr [haben wir;] - nennt das Jahr in SC-Zeitrechnung.
@@ -136,7 +138,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - [Schiff; Tür; Türen] [auf; öffnen; schließen; zu] - öffnet die Türen, Fahrstühle und Rampen des Schiffs und schließt sie.
 - [Schiffstyp; Schiffs Typ] &ast; - macht dem Profil ein Schiff bekannt (siehe "Schiffstypen").
 - [Schiffstyp; Schiffs Typ] [reset; zurücksetzen] - hebt die Zuweisung des Schiffstyps auf.
-- Selbstzerstörung[ssequenz;] [einleiten; initiieren; starten] - startet die Selbstzerstörung. Meldet die verbleibende Zeit bei 10 und 5 Sekunden, wenn der Schiffstyp bekannt ist (siehe "Rumpf/Schiffstyp &ast;").
+- Selbstzerstörung[ssequenz;] [einleiten; initiieren; starten] - startet die Selbstzerstörung. Meldet die verbleibende Zeit bei 10 und 5 Sekunden, wenn der Schiffstyp bekannt ist (siehe "Rumpf/Schiffstyp &ast;"). Wird geloggt (siehe "QoL/Daten").
 
 **Schilde:**
 
@@ -168,9 +170,13 @@ Schiffstypen werden über Codes angegeben und nur für QoL-Aspekte verwendet, wi
 Man kann "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
 
 - A1 - Anvil Pisces
+- A2 - Anvil Arrow
+- A3 - Anvil Hawk
 - A7 - Anvil Hornet
 - A11 - Anvil Carrack
 - D4 - Drake Cutlass
+- M2 - MISC Reliant
+- M5 - MISC Freelancer
 
 **Bemerkungen:**
 - Star Citizen liefert keine Information über seinen inneren Zustand. Deswegen kann VoiceAttack nicht wissen, ob der Quantum-Antrieb wirklich aktiviert wurde nachdem der Befehl gegeben wurde. Vielleicht war die Chateingabe aktiv und "b" ist dort gelandet. Deswegen ist dieses Profil auf keinen Fall narrensicher und leicht zu täuschen.
