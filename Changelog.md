@@ -1,6 +1,6 @@
 Changelog
 
-2020060402
+20200605
 - [Bremse; bremsen; verzögern] [halten;] - kann wiederholt werden, wenn ohne "halten" aufgerufen.
 - Rückspiegel [halten;] - ebenso.
 - beende [Programm; Prozess; Spiel] - merkt sich Aufruf in statistischen Daten.
