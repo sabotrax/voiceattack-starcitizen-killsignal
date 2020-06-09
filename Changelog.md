@@ -1,5 +1,19 @@
 Changelog
 
+20200609
+- auf geht's - Aufruf erweitert.
+- [Einladung;] ablehnen - ebenso.
+- [Daten; Statistik] des Spiels - ebenso.
+- Harakiri; Seppuku - aktualisiert.
+- abheben - Einsatz von schiff_pu_timer korrigiert.
+- abheben - Steigzeit von 3 auf 2 s verringert (wg. Kollision mit Hangar-Dach).
+- aktivieren - setzt Schiffsvariablen per _fix_vars_sprung.
+- [Daten; Statistik] des Spiels - kann abgebrochen werden.
+- [Schiffstyp; Schiffs Typ] * - um Retaliator erweitert.
+- Reliant Power-Up-Timer verlaengert.
+- Fehlerbehebung.
+- Antworten erweitert.
+
 20200605
 - [Bremse; bremsen; verzögern] [halten;] - kann wiederholt werden, wenn ohne "halten" aufgerufen.
 - Rückspiegel [halten;] - ebenso.

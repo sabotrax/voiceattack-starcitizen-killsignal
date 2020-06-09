@@ -107,6 +107,7 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **Körper:**
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Anzugbeleuchtung an und aus (gleiche Funktion bei "Rumpf").
+- Harakiri; Seppuku - backspacet den Spieler. Verlangt Bestätigung innerhalb von 15 Sekunden. Wird geloggt (siehe "QoL/Daten").
 
 **MobiGlas:**
 - Computer; Mobi - blendet MobiGlas ein und aus.
@@ -115,10 +116,10 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 
 **QoL:**
 - abbrechen; Abbruch; aufhören; beenden; einstellen; hör [damit;] auf [damit;]; [tu; tut] das nicht - bricht alle laufenden Vorgänge ab.
-- Auf geht's; Auf jeden [Fall;]; Bestätige; Hau rein; Ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; Ja wohl; jawoll; [Klar; Sicher] [doch;]; Mach [mal; schon]; Natürlich; Positiv; Sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
-- Beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen"). Wird geloggt (siehe "QoL/Daten").
+- auf geht's; auf jeden [Fall;]; bestätige; bestätigt; hau rein; ja [bitte; gerne; ist es; klar; Mama; schon; sicher; sicherlich; sind wir]; ja wohl; jawoll; [klar; sicher] [doch;]; mach [mal; schon]; natürlich; positiv; sicherlich - dient zur Bestätigung von Nachfragen bei z. B. "abheben" oder "landen".
+- beende [Programm; Prozess; Spiel]; [Programm; Prozess; Spiel] beenden - beendet Star Citizen. Verlangt Bestätigung innerhalb von 30 Sekunden. Kann abgebrochen werden (siehe "QoL/abbrechen"). Wird geloggt (siehe "QoL/Daten").
 - [Chatkorrektur; Chat korrigieren] [ein; aus] - versucht, den Fehler zu korrigieren, dass der Chat beim Wechseln der Perspektive immer wieder eingeblendet wird. Funktioniert bei Kamera und Rückspiegel. Dazu: Chatkorrektur einschalten, Chat in Egoperspektive ausblenden, Kamera/Rückspiegel per VoiceAttack verwenden.
-- [Daten; Statistik] des Spiels; Spiel[daten; statistik]; Statistik - liest geloggte Daten vor: Anzahl QD-Sprünge, zerstörte andere Schiffe, ausgelöste Selbstzerstörungen, Harakiris und gekillte Spielprozesse.
+- [Daten; Statistik] des Spiels; Logbuch; Spiel[daten; statistik]; Statistik - liest geloggte Daten vor: Anzahl QD-Sprünge, zerstörte andere Schiffe, ausgelöste Selbstzerstörungen, Harakiris und gekillte Spielprozesse.
 - geh schlafen; hör weg; mach [mal;] Pause - beendet das Zuhören. Kann in der App per Hotkey oder Mausklick auf den Kopfhörer reaktiviert werden.
 - [gibt's; gibt es] [etwas Neues; was Neues; Neuigkeiten]; Lies die Nachrichten [vor;]; Was [gibt's; gibt es] [für Neuigkeiten; Neues] - berichtet Nachrichten rund um Star Citizen.
 - noch ein Schiff zerstört - loggt die Zerstörung eines fremden Schiffs (siehe "QoL/Daten").
@@ -160,7 +161,7 @@ Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn"
 
 **UI:**
 - Chat - blendet den Chat ein und aus.
-- [Einladung;] ablehnen; ausblenden; ignorieren - lehnt Einladungen ab.
+- [Einladung;] ablehnen; ausblenden; ignorieren; verwerfen - lehnt Einladungen ab.
 - [Einladung;] [annehmen; akzeptieren] - nimmt Einladungen an.
 
 **Schiffstypen &ast;&ast;BETA&ast;&ast;:**
@@ -174,6 +175,7 @@ Man kann "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
 - A3 - Anvil Hawk
 - A7 - Anvil Hornet
 - A11 - Anvil Carrack
+- AD8 - Aegis Retaliator
 - D4 - Drake Cutlass
 - M2 - MISC Reliant
 - M5 - MISC Freelancer
