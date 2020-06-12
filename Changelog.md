@@ -1,5 +1,13 @@
 Changelog
 
+20200612
+- Version dazu.
+- Antrieb drehen - Aufruf erweitert.
+- [Schiffstyp; Schiffs Typ] * - um SH und Vanguard erweitert.
+- PU-Timer verschiedener Schiffe angepasst.
+- Fehlerbehebung.
+- Antworten erweitert.
+
 20200609
 - auf geht's - Aufruf erweitert.
 - [Einladung;] ablehnen - ebenso.

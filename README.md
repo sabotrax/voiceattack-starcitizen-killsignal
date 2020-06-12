@@ -125,10 +125,11 @@ Es wird die Standard-Tastaturbelegung vorausgesetzt. Ausnahmen stehen beim entsp
 - noch ein Schiff zerstört - loggt die Zerstörung eines fremden Schiffs (siehe "QoL/Daten").
 - nochmal; wiederholen - wiederholt den letzten Befehl. Funktioniert nur, wo es sinnvoll ist.
 - Schiff [plus Antrieb schalten; schaltet Antrieb] [ein; aus] - korrigiert den Fehler, dass nach dem Ausschalten des Schiffs weiterhin der Antrieb läuft und zu sehen ist.
+- Version - nennt die Versionsnummer des Profils.
 - Welches Jahr [haben wir;] - nennt das Jahr in SC-Zeitrechnung.
 
 **Rumpf:**
-- [Antrieb; Antriebe; Triebwerk; Triebwerke] [drehen; fliegen; kippen; landen; senkrecht; tränen; waagerecht] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
+- [Antrieb; Antriebe; Triebwerk; Triebwerke] [drehen; fliegen; kippen; landen; senkrecht; tränen; waagerecht]; [Schwebeflug; Wie toll] [aktivieren; an; anschalten; deaktivieren; ein; einschalten; aus; ausschalten] - dreht die Triebwerke oder aktiviert VTOL (z. B. Cutlass, Constellation).
 - Beleuchtung; [Kopf; Taschen;] Lampe; Lampe; Lampen; Licht; Lichter; Scheinwerfer [an; anschalten; aus; ausschalten;] - schaltet die Fahrzeugbeleuchtung an und aus (gleiche Funktion bei "Körper").
 - Fahrwerk [ausfahren; einfahren; raus; rein]; Landemodus - fährt das Fahrwerk aus und ein.
 - landebereit machen; Landebereitschaft [herstellen;]; Landung vorbereiten - stellt den Schub der Haupttriebwerke auf ca. 40 % Standard, dreht die Triebwerke, fährt das Fahrtwerk aus und öffnet die Kontakte (damit der Spieler die Landeanfrage stellen kann).
@@ -168,15 +169,20 @@ Die Schilde können in Schritten von 25 % verändert werden. "Schilde nach vorn"
 
 Schiffstypen werden über Codes angegeben und nur für QoL-Aspekte verwendet, wie z. B. die Zeit bis zum Abheben oder das Wissen um den Schleudersitz.
 
-Man kann "Schiffstyp A1" oder "Schiffstyp Delta 4" sagen.
+Man kann "Schiffstyp A1", "Schiffstyp ist Alpha Delta 6" sagen.
 
 - A1 - Anvil Pisces
 - A2 - Anvil Arrow
 - A3 - Anvil Hawk
 - A7 - Anvil Hornet
+- A7 - Anvil Super Hornet
 - A11 - Anvil Carrack
+
+- AD6 - Aegis Vanguard
 - AD8 - Aegis Retaliator
+
 - D4 - Drake Cutlass
+
 - M2 - MISC Reliant
 - M5 - MISC Freelancer
 
