@@ -181,7 +181,9 @@ Man kann "Schiffstyp A1", "Schiffstyp ist Alpha Delta 6" sagen.
 - AD6 - Aegis Vanguard
 - AD8 - Aegis Retaliator
 
+- D2 - Drake Buccaneer
 - D4 - Drake Cutlass
+- D7 - Drake Caterpillar
 
 - M2 - MISC Reliant
 - M5 - MISC Freelancer

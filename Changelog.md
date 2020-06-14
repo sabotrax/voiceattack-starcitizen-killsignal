@@ -1,5 +1,9 @@
 Changelog
 
+20200614
+- [Schiffstyp; Schiffs Typ] * - um Bucc und Cat erweitert.
+- Fehlerbehebung.
+
 20200612
 - Version dazu.
 - Antrieb drehen - Aufruf erweitert.
